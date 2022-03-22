@@ -1,0 +1,400 @@
+[
+    {
+      "id": "100",
+      "name": "TESLA",
+      "poster": "https://i.insider.com/5a872a6cd030721b008b4727?width=1136&format=jpeg",
+      "series": "Model 3",
+      "type": "Electrical",
+      "price": "60 Lakhs",
+      "speed": "162 mph",
+      "mileage": "498 km(single-charge)"
+    },
+    {
+      "id": "101",
+      "name": "TESLA",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tesla/Model-X/5253/1611841733029/front-left-side-47.jpg",
+      "series": "Model S",
+      "type": "Electrical",
+      "price": "1.5 croces",
+      "speed": "155 mph",
+      "mileage": "420 km(single-charge)"
+    },
+    {
+      "id": "102",
+      "name": "TESLA",
+      "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-model-x-1636042860.jpg",
+      "series": "Model X",
+      "type": "Electrical",
+      "price": "2 crores",
+      "speed": "155 mph",
+      "mileage": "547 km(single-charge)"
+    },
+    {
+      "id": "103",
+      "name": "TESLA",
+      "poster": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c7359a76-05c0-4b00-a5ac-3ad005acdc5f/bvlatuR/std/0x0/Range_Desktop-poster",
+      "series": "Model Y",
+      "type": "Electrical",
+      "price": "70 Lakhs",
+      "speed": "155 mph",
+      "mileage": "520 km(single-charge)"
+    },
+    {
+      "id": "104",
+      "name": "TATA",
+      "poster": "https://cars.tatamotors.com/images/punch/tata-punch-features-m-banner.jpg",
+      "series": "Tata Punch",
+      "type": "Petrol",
+      "price": "9.18 Lakh",
+      "speed": "150 kmph",
+      "mileage": "19 km/l combined"
+    },
+    {
+      "id": "105",
+      "name": "TATA",
+      "poster": "https://cdni.autocarindia.com/ExtraImages/20200724042713_Tata-Nexon-FL-front-tracking.jpg",
+      "series": "Tata Nexon",
+      "type": "Diesel/Petrol",
+      "price": " 13.73 Lakh",
+      "speed": "180 kph",
+      "mileage": "16-22 km/l combined"
+    },
+    {
+      "id": "106",
+      "name": "TATA",
+      "poster": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20201007020644_harrier-dark.jpg&w=700&q=90&c=1",
+      "series": "Tata Harrier",
+      "type": "Petrol/CNG",
+      "price": "21.70 Lakh",
+      "speed": "180 kmph",
+      "mileage": "15-16 km/l combined"
+    },
+    {
+      "id": "107",
+      "name": "TATA",
+      "poster": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/57613/left-front-three-quarter0.jpeg?wm=0",
+      "series": "Tata Tiago",
+      "type": "Diesel/Petrol",
+      "price": "7.64 Lakh",
+      "speed": "165 kmph",
+      "mileage": "20 km/l combined"
+    },
+    {
+      "id": "108",
+      "name": "TATA",
+      "poster": "https://cars.tatamotors.com/images/altroz-gallery-mobile-banner-overlay.jpg",
+      "series": "Tata Altroz",
+      "type": "Diesel/Petrol",
+      "price": " 9.69 Lakh",
+      "speed": "165+ kmph",
+      "mileage": "19-25 km/l combined"
+    },
+    {
+      "id": "109",
+      "name": "TATA",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tata-Tigor/6639/front-right-view-120.jpg",
+      "series": "Tata Tigor",
+      "type": "Petrol/CNG",
+      "price": "8.41 Lakh",
+      "speed": "164 kmph",
+      "mileage": "19 km/l combined"
+    },
+    {
+      "id": "110",
+      "name": "TATA",
+      "poster": "https://www.eaglesvine.com/wp-content/uploads/2021/02/New-Tata-Safari-launched-in-India-at-an-introductory-starting.jpg",
+      "series": "Tata Safari",
+      "type": "Diesel",
+      "price": "23.29 Lakh",
+      "speed": "180 kmph",
+      "mileage": "14-16 km/l combined"
+    },
+    {
+      "id": "111",
+      "name": "TATA",
+      "poster": "https://images.news18.com/ibnlive/uploads/2021/08/1628423383_tata-tiago-nrg-3.jpg?impolicy=website&width=0&height=0",
+      "series": "Tata Tiago NRG",
+      "type": "Petrol",
+      "price": " 7.17 Lakh",
+      "speed": "150 kmph",
+      "mileage": "20 km/l combined"
+    },
+    {
+      "id": "112",
+      "name": "TATA",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Nexon-EV/7042/1576845369560/front-left-side-47.jpg",
+      "series": "Tata Nexon EV",
+      "type": "Electric",
+      "price": "13.14 Lakh",
+      "speed": "120kmph",
+      "mileage": "312 km(single-charge)"
+    },
+    {
+      "id": "113",
+      "name": "TATA",
+      "poster": "https://c.ndtvimg.com/2021-08/lfh1n2po_tata-tigor-ev_625x300_25_August_21.jpg",
+      "series": "Tata Tigor EV",
+      "type": "Electric",
+      "price": "13.14 Lakh",
+      "speed": "80kph",
+      "mileage": "306km(single-charge)"
+    },
+    {
+      "id": "114",
+      "name": "HYUNDAI",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Kona-Electric-2021/8178/Hyundai-Kona-Electric-2021-/1605186918196/front-left-side-47.jpg",
+      "series": "Hyundai  Kona Electric ",
+      "type": "Electric",
+      "price": " 23.79 Lakh",
+      "speed": "155 km/h",
+      "mileage": "452 Km(single-charge)"
+    },
+  
+    {
+      "id": "115",
+      "name": "HYUNDAI",
+      "poster": "https://images.news18.com/ibnlive/uploads/2020/12/1608967064_2020-hyundai-creta.jpg?im=Resize,width=360,aspect=fit,type=normal?im=Resize,width=320,aspect=fit,type=normal",
+      "series": "Hyundai Creta ",
+      "type": "Diesel/Petrol",
+      "price": "17.9 Lakhs",
+      "speed": "195 kmph",
+      "mileage": "17-21 km/l combined"
+    },
+    {
+      "id": "116",
+      "name": "HYUNDAI",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Tucson/7509/1594715357564/front-left-side-47.jpg",
+      "series": "Hyundai Tucson",
+      "type": "Diesel/Petrol",
+      "price": "27.5 Lakhs",
+      "speed": "120mph",
+      "mileage": " 13-17 km/l combined"
+    },
+    {
+      "id": "117",
+      "name": "HYUNDAI",
+      "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/large-46979-2022nexo-1635872849.jpg?crop=0.824xw:0.925xh;0.104xw,0.0481xh&resize=640:*",
+      "series": "Hyundai Nexo",
+      "type": "Petrol",
+      "price": "65 Lakhs",
+      "speed": "179 km/h.",
+      "mileage": "666 kilometres (WLTP) "
+    },
+    {
+      "id": "118",
+      "name": "HYUNDAI",
+      "poster": "https://stimg.cardekho.com/images/car-images/930x620/Hyundai/Hyundai-Casper/8573/1630559299958/front-left-side-47.jpg?tr=w-420",
+      "series": "Hyundai Casper",
+      "type": "Petrol",
+      "price": "6 Lakhs",
+      "speed": "151 kmph.",
+      "mileage": "13-17 km/l combined"
+    },
+    {
+      "id": "119",
+      "name": "HYUNDAI",
+      "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-hyundai-elantra-mmp-1-1634851642.jpg?crop=0.859xw:0.644xh;0.0929xw,0.202xh&resize=1200:*",
+      "series": "Hyundai Elantra ",
+      "type": "Diesel/Petrol",
+      "price": " 21.13 Lakh.",
+      "speed": "140mph. ",
+      "mileage": "14-23 km/l combined"
+    },
+    {
+      "id": "120",
+      "name": "HYUNDAI",
+      "poster": "https://images.hgmsites.net/hug/hyundai-palisade_100800712_h.jpg",
+      "series": "Hyundai Palisade",
+      "type": "Diesel",
+      "price": "40 Lakhs",
+      "speed": "210 km/h",
+      "mileage": "26 MPG"
+    },
+    {
+      "id": "121",
+      "name": "HYUNDAI",
+      "poster": "https://sparepartsnepal.com/wp-content/uploads/2020/08/Hyundai-Venue-Spare-Parts-Price-in-Nepal.png",
+      "series": "Hyundai Venue ",
+      "type": "Diesel/Petrol",
+      "price": " 11.87 Lakh.",
+      "speed": "160km/h",
+      "mileage": "17-23 km/l combined"
+    },
+    {
+      "id": "122",
+      "name": "BMW",
+      "poster": "https://cdn.bmwblog.com/wp-content/uploads/2018/03/Melbourne-Red-BMW-X5-M-HRE-Wheels-Image-2.jpg",
+      "series": "BMW X5",
+      "type": "petrol/diesel engine",
+      "price": "70.75 Lakhs",
+      "speed": "278 kmph",
+      "mileage": "8-13 km/l combined"
+    },
+    {
+      "id": "123",
+      "name": "BMW",
+      "poster": "https://gumlet.assettype.com/evoindia%2F2020-07%2F4fcf8dbf-09fc-429b-83cb-e751c3b3c60b%2FP90373801_highRes_the_new_bmw_x6_m50i_.jpg?rect=0%2C138%2C2048%2C1152&auto=format%2Ccompress&fit=max&format=webp&w=480&dpr=2.6",
+      "series": "BMW X6",
+      "type": "petrol engine",
+      "price": "1.2 crore",
+      "speed": "250 kmph",
+      "mileage": "10 km/l combined"
+    },
+  
+    {
+      "id": "124",
+      "name": "BMW",
+      "poster": "https://www.financialexpress.com/wp-content/uploads/2022/01/BMW-X3-Facelift-3.jpg",
+      "series": "BMW X3",
+      "type": " petrol/diesel engine",
+      "price": "60 Lakhs",
+      "speed": "250 kmph",
+      "mileage": "13-17 km/l combined"
+    },
+    {
+      "id": "125",
+      "name": "BMW",
+      "poster": "https://www.financialexpress.com/wp-content/uploads/2022/02/new-bmw-x4-m40i-facelift.jpg",
+      "series": "BMW X4",
+      "type": "petrol/diesel engine",
+      "price": "60.75 Lakhs",
+      "speed": "250 kmph",
+      "mileage": "11-15 km/l combined"
+    },
+  
+    {
+      "id": "126",
+      "name": "BMW",
+      "poster": " https://thumbor.forbes.com/thumbor/711x474/https://blogs-images.forbes.com/nargessbanks/files/2019/04/P90343695-highRes.jpg?width=960",
+      "series": "BMW X7",
+      "type": "petrol/diesel engine",
+      "price": "1.7 crore",
+      "speed": "250 kmph",
+      "mileage": "11-13 km/l combined"
+    },
+    {
+      "id": "127",
+      "name": "BMW",
+      "poster": "https://images.hgmsites.net/lrg/2022-bmw-x1_100821675_l.jpg",
+      "series": "BMW X1",
+      "type": "petrol/diesel engine",
+      "price": "40 Lakhs",
+      "speed": "222 kmph",
+      "mileage": "15-20 km/l combined"
+    },
+    {
+      "id": "128",
+      "name": "BMW",
+      "poster": "https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/eqb/suv-x243/pad/highlights/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile/image.MQ6.8.20210823082518.jpeg",
+      "series": "Mercedes-Benz EQB",
+      "type": "Electrical",
+      "price": "70 Lakhs",
+      "speed": "180 km/h",
+      "mileage": "471 Km(single-charge)"
+    },
+    {
+      "id": "129",
+      "name": "BMW",
+      "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-mercedes-benz-eqs-138-1627066895.jpg?crop=0.651xw:0.578xh;0.207xw,0.245xh&resize=1200:*",
+      "series": "Mercedes-Benz EQS",
+      "type": "Electric sedan",
+      "price": "1.75 crore",
+      "speed": "200 km/h",
+      "mileage": "770km(single-charge)"
+    },
+    {
+      "id": "130",
+      "name": "BMW",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/AMG-GT/7842/1609141333284/front-left-side-47.jpg",
+      "series": "Mercedes-Benz AMG GT",
+      "type": "Petrol",
+      "price": "2.64 crore",
+      "speed": "312 km/h",
+      "mileage": "8-11 km/l combined"
+    },
+    {
+      "id": "131",
+      "name": "BMW",
+      "poster": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/108113/exterior-left-front-three-quarter.jpeg?isig=0&q=75",
+      "series": "Mercedes-Benz EQE",
+      "type": "Electrical",
+      "price": "70 lakhs",
+      "speed": "137 km/h",
+      "mileage": "660 km(single-charge)"
+    },
+    {
+      "id": "132",
+      "name": "BMW",
+      "poster": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200527021853_Mercedes-E-Class_Cabriolet.jpg",
+      "series": "Mercedes-Benz E-Class Cabriolet Facelift",
+      "type": "Petrol",
+      "price": "84 Lakhs",
+      "speed": "155 km/h",
+      "mileage": "10 kmpl"
+    },
+  
+    {
+      "id": "133",
+      "name": "BMW",
+      "poster": "https://www.mercedes-benz.com/en/vehicles/passenger-cars/gls/mercedes-amg-gls-63-4matic/_jcr_content/image/MQ6-12-image-20191120194413/00-mercedes-benz-2020-mercedes-amg-gls-63-4matic-x167-polar-white-2560x1440.jpeg",
+      "series": "Mercedes-Benz GLS 63",
+      "type": "petrol",
+      "price": "1.92 crore",
+      "speed": "174 km/h",
+      "mileage": "11.5kmpl"
+    },
+    {
+      "id": "134",
+      "name": "ROLLS-ROYCE",
+      "poster": "https://www.wallpaperup.com/uploads/wallpapers/2017/10/23/1129940/de7f2008221d92f2f63ecfa1037e4675-700.jpg",
+      "series": "Rolls-Royce Ghost",
+      "type": "Petrol",
+      "price": "7.95 crore",
+      "speed": "155 miles per hour",
+      "mileage": " 6.33 kmpl"
+    },
+    {
+      "id": "135",
+      "name": "ROLLS-ROYCE",
+      "poster": "https://imageio.forbes.com/specials-images/imageserve/617a778d66fbfc6c231e3a1a/The-new-Rolls-Royce-Ghost-Black-Badge/960x0.jpg?fit=bounds&format=jpg&width=960",
+      "series": "Rolls-Royce Phantom",
+      "type": "Petrol",
+      "price": "10.48 Crore",
+      "speed": "155 mph",
+      "mileage": "9.8 kmpl"
+    },
+  
+    {
+      "id": "136",
+      "name": "ROLLS-ROYCE",
+      "poster": "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp",
+      "series": "Rolls-Royce Cullinan",
+      "type": "Petrol",
+      "price": "6.95 crore",
+      "speed": "155 miles per hour",
+      "mileage": "9.5 kmpl"
+    },
+  
+    {
+      "id": "137",
+      "name": "ROLLS-ROYCE",
+      "poster": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F04%2Fspofec-overdose-rolls-royce-black-badge-wraith-wide-body-kit-tuned-v12-custom-rare-limited-edition-novitec-0.jpg?w=960&cbr=1&q=90&fit=max",
+      "series": "Rolls-Royce Wraith",
+      "type": "Petrol",
+      "price": "7.21 Crore",
+      "speed": "155 miles per hour",
+      "mileage": "10.2 kmpl"
+    },
+  
+    {
+      "id": "138",
+      "name": "ROLLS-ROYCE",
+      "poster": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F09%2Fmansory-rolls-royce-dawn-silver-bullet-soft-kit-custom-tuned-conversion-limited-edition-1.jpg?q=75&w=800&cbr=1&fit=max",
+      "series": "Rolls-Royce Dawn",
+      "type": "Petrol",
+      "price": "7.85 Crore",
+      "speed": "155 miles per hour",
+      "mileage": "9.8 kmpl"
+    },
+  ]
+  

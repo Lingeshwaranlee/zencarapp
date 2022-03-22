@@ -1,13 +1,187 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: rgb(236, 231, 231);
+  
+}
+.you{
+  color: rgba(14, 13, 13, 0.63);
+  padding-top: 650px;
+  text-align: center;
+  
+}
+.gh{
+  color: rgba(240, 234, 234, 0.63);
+  padding-top: 70px;
+  padding-left: 50px;
+}
+.styles{
+  text-align: center;
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nj{
+  width:100%;
+  color: red;
+}
+.leo{
+  text-align: center;
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+}
+
+.qa{
+  color: BLACK;
+  text-align: center;
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.pic{
+  background-image: url("https://imgd.aeplcdn.com/0X0/n/cw/ec/49765/rollsroyce-phantom-viii-left-front-three-quarter0.jpeg?q=75");
+position: relative;
+object-fit: cover;
+
+}
+.qw{
+  width:100%;
+  margin:20px;
+}
+
+.brand-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.brand-poster{
+  width: 370px;
+  object-fit: cover;
+  height: 350px;
+  
+}
+.allbrands{
+  width: 370px; 
+}
+.tes1{
+  padding-left: 350px;
+
+}
+
+.joy{
+  background-color: rgb(197, 190, 190);
+}
+.tesla{
+  width: 650px;
+  
+}
+
+.brand{
+  text-align: center;
+}
+.tesla-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+  
+}
+
+.tesla-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.world{
+  text-align: center;
+  background-color: rgb(41, 39, 39);
+  color: rgb(185, 183, 183);
+  padding: 50px;
+}
+.kill{
+  text-align: center;
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+  opacity: 2.8;
+  background-size: cover;
+  height:auto;
+}
+.bmw-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+}
+.bmw{
+  width: 650px;
+ 
+
+}
+.bmw-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+.benz-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+}
+.benz{
+  width: 650px;
+ 
+
+}
+.benz-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tata-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+}
+.tata{
+  width: 650px;
+
+
+}
+.tata-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hyundai-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+}
+.hyundai{
+  width: 650px;
+  
+
+}
+.hyundai-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.jaguar-poster{
+  width: 650px;
+  object-fit: cover;
+  height: 550px;
+}
+.jaguar{
+  width: 650px;
+  
+
+}
+.jaguar-list{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
