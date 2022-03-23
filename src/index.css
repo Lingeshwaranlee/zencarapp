@@ -71,6 +71,10 @@ object-fit: cover;
 }
 .tesla{
   width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  
   
 }
 
@@ -111,6 +115,10 @@ object-fit: cover;
 }
 .bmw{
   width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  
  
 
 }
@@ -128,6 +136,10 @@ object-fit: cover;
 }
 .benz{
   width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  
  
 
 }
@@ -144,7 +156,10 @@ object-fit: cover;
 }
 .tata{
   width: 650px;
-
+  border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+    
 
 }
 .tata-list{
@@ -160,6 +175,9 @@ object-fit: cover;
 }
 .hyundai{
   width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
   
 
 }
@@ -176,6 +194,9 @@ object-fit: cover;
 }
 .jaguar{
   width: 650px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
   
 
 }
