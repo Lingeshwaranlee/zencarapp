@@ -65,6 +65,10 @@ object-fit: cover;
   padding-left: 350px;
 
 }
+.tes2{
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+}
+
 
 .joy{
   background-color: rgb(197, 190, 190);
@@ -80,6 +84,7 @@ object-fit: cover;
 
 .brand{
   text-align: center;
+  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
 }
 .tesla-poster{
   width: 650px;

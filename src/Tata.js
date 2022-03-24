@@ -132,7 +132,7 @@ export function Tata() {
            industrial groups in India.</h3>
             </div>
             <div>
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1 className="tes2">🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/Rag287hQj28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  :""}
