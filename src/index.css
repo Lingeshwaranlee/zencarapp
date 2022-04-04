@@ -211,3 +211,47 @@ object-fit: cover;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.flex{
+  display:flex !important;
+}
+.zee{
+  margin-left: 280px;
+  
+}
+.tamil{
+  margin-left: 40px;
+}
+.yaal{
+  width: 150px;
+  height: 35px;
+}
+.btn{
+  background-color: rgb(133, 130, 130) !important;
+  color:black;
+  font-size: medium;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 480px;
+}
+.customize{
+    margin-left: 270px;
+    color: black !important;
+}
+.tesla-poster-modal{
+  width: 550px;
+  object-fit: cover;
+  height: 300px;
+  margin-left: 10px;
+}
+.abd{
+    margin-left: 230px;
+}
+.head{
+  margin-left: 220px;
+}
+.jh{
+    margin-right: 500px;
+}
+.folks{
+  margin-left: 400px;
+}
