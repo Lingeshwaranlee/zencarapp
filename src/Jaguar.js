@@ -13,6 +13,7 @@ import Stack from '@mui/material/Stack';
 import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 
 export function Jaguar() {
   const cars= [
@@ -187,7 +188,18 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
 >
   <Box sx={style}>
     <div>
-    <h2 className='head'>{name}</h2>
+    <h2 className='head'>{name}
+    <span className="poo">
+    <IconButton 
+      
+      color="primary" 
+      aria-label="add to shopping cart"
+      onClick={handleClose}
+      >
+     <CancelPresentationIcon />
+</IconButton>
+</span>
+</h2>
     <img className='tesla-poster-modal'src={poster}></img>
     <hr></hr>
     <h3 style={ji}><FontAwesomeIcon icon={faGasPump}></FontAwesomeIcon>: {type}</h3> 

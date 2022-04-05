@@ -12,6 +12,8 @@ import Badge from '@mui/material/Badge';
 import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 import Box from '@mui/material/Box';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+
 export function RollRoyce() {
   const cars = [
     {
@@ -188,7 +190,18 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
 >
   <Box sx={style}>
     <div>
-    <h2 className='head'>{name}</h2>
+    <h2 className='head'>{name}
+    <span className="goo">
+    <IconButton 
+      
+      color="primary" 
+      aria-label="add to shopping cart"
+      onClick={handleClose}
+      >
+     <CancelPresentationIcon />
+</IconButton>
+</span>
+    </h2>
     <img className='tesla-poster-modal'src={poster}></img>
     <hr></hr>
     <h3 style={ji}><FontAwesomeIcon icon={faGasPump}></FontAwesomeIcon>: {type}</h3> 
