@@ -268,4 +268,8 @@ object-fit: cover;
 .qoo{
   margin-left: 250px;
 }
-
+.yuvan{
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}

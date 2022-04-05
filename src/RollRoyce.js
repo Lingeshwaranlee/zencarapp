@@ -182,6 +182,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       
       {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      <div className="yuvan">
       <Modal
   open={open}
   onClose={handleClose}
@@ -215,6 +216,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
     </div>
   </Box>
 </Modal>
+</div>
       
     
 
