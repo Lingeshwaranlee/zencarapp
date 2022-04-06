@@ -30,7 +30,7 @@ export function Tata() {
     {
       "id": "105",
       "name": "TATA Nexon",
-      "poster": "https://cdni.autocarindia.com/ExtraImages/20200724042713_Tata-Nexon-FL-front-tracking.jpg",
+      "poster": "https://theautomotiveblog.com/wp-content/uploads/2021/06/nexon-mobile-price-overlay.png",
       "varients":["Base= 13.73 Lakh","Middle= 16 Lakhs","Top= 18.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Diesel/Petrol",
@@ -41,7 +41,7 @@ export function Tata() {
     {
       "id": "106",
       "name": "TATA Harrier",
-      "poster": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20201007020644_harrier-dark.jpg&w=700&q=90&c=1",
+      "poster": "https://wallpaperaccess.com/full/2597717.png",
       "varients":["Base= 21.70 Lakh","Middle= 25.70 Lakh","Top= 28.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Petrol/CNG",
@@ -52,7 +52,7 @@ export function Tata() {
     {
       "id": "107",
       "name": "TATA  Tiago",
-      "poster": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/57613/left-front-three-quarter0.jpeg?wm=0",
+      "poster": "https://www.carbikeindia.com/wp-content/uploads/2021/08/Tata-Tiago-NRG-Launch-in-India.jpg",
       "varients":["Base= 7.70 Lakh","Middle= 9.70 Lakh","Top= 13.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown"],
        "type": "Diesel/Petrol",
@@ -152,7 +152,7 @@ export function Tata() {
            industrial groups in India.</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}} onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/Rag287hQj28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  :""}
@@ -190,6 +190,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -203,6 +204,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />

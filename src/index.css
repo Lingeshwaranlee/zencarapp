@@ -53,10 +53,12 @@ object-fit: cover;
   padding-left: 20px;
 }
 .brand-poster{
-  width: 370px;
+  width: 300px;
   object-fit: cover;
-  height: 350px;
-  
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 }
 .allbrands{
   width: 370px; 
@@ -82,9 +84,11 @@ object-fit: cover;
   
 }
 
+
 .brand{
   text-align: center;
-  background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+  background-color: rgb(41, 39, 39);
+  color: rgb(185, 183, 183);
 }
 .tesla-poster{
   width: 650px;
@@ -219,10 +223,10 @@ object-fit: cover;
   
 }
 .tamil{
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .yaal{
-  width: 150px;
+  width: 165px;
   height: 35px;
 }
 .btn{

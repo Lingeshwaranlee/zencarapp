@@ -80,7 +80,7 @@ export function Jaguar() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon> WELCOME TO JAGUAR WORLD <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <h1 className='world'> WELCOME TO JAGUAR WORLD---- <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
 
 <img src="https://cdn.motor1.com/images/mgl/q1ZM1/s1/2019-jaguar-f-pace-svr-first-drive.jpg"></img>
       
@@ -99,7 +99,7 @@ export function Jaguar() {
               its headquarters in Whitley, Coventry, England.</h3>
         </div>
         <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/bO08STHIhgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -136,6 +136,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -149,6 +150,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />

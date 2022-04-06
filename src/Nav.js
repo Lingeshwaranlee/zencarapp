@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom';
  export default function Nav() {
   const history =useHistory(); 
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>
       <Toolbar>
         <Button color="inherit" onClick={() => history.push("/")}>HOME</Button>
         <Button color="inherit" onClick={() => history.push("/tesla")}>TESLA</Button>

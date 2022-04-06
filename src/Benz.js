@@ -90,7 +90,7 @@ export function Benz() {
   const[east,seteast]=useState(false);
   return (
     <div>
-       <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon>WELCOME TO MERCEDES BENZ WORLD<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+       <h1 className='world'>MERCEDES BENZ WELCOMES YOU----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
       <img src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my22/glc/coupe/class-page/series/2022-GLC-COUPE-CH-1-1-DR.jpg"></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
@@ -107,7 +107,7 @@ export function Benz() {
          BMW brand just because they produce great cars, but also because of their way of doing things..</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/csAXruiBLTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -146,6 +146,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -159,6 +160,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />

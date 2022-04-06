@@ -115,7 +115,7 @@ export function Hyundai() {
   return (
     
     <div>
-     <h1 className='world'><FontAwesomeIcon icon={faChargingStation} ></FontAwesomeIcon> WELCOME TO HYUNDAI WORLD <FontAwesomeIcon icon={faChargingStation} ></FontAwesomeIcon></h1>
+     <h1 className='world'> WELCOME TO HYUNDAI WORLD---- <FontAwesomeIcon icon={faChargingStation} ></FontAwesomeIcon></h1>
       <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Tucson/Highlights/Hyundai-Tucson-InnerPage-Banner2-PC-new.jpg"></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
@@ -131,7 +131,7 @@ export function Hyundai() {
          headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/N3tH_3A1000" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -168,6 +168,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -181,6 +182,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />

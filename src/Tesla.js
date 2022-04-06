@@ -44,7 +44,7 @@ export function Tesla() {
     {
       "id": "102",
       "name": "TESLA-Model X",
-      "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-model-x-1636042860.jpg",
+      "poster": "http://www.canadianreviewer.com/storage/post-images/Tesla%20Model%20X.jpg?__SQUARESPACE_CACHEVERSION=1581735853651",
       "varients":["Base= 1.2-crores","Middle= 1.5-crores","Top= 2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       //"price": [{"Base":"1.2 crores","Middle":"1.5 crores","Top":"2 crores"}],
@@ -69,7 +69,7 @@ export function Tesla() {
 
   return (
     <div>
-   <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon> WELCOME TO TESLA WORLD <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+   <h1 className='world'> WELCOME TO TESLA WORLD ----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
       
       <img src='https://wegoelectric.net/wp-content/uploads/2021/08/model-3-tesla.jpeg'></img>
       
@@ -90,11 +90,11 @@ export function Tesla() {
             a zero-emission future, the better.</h3>
             </div>
             <div className="folks">
-              <h1 >🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1 >🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/jWreyC2l-dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-          <img src="https://www.topgear.com/sites/default/files/images/news-article/2017/06/1a25df25e98a5d9f2c6a61a951de3498/scenic_mountain_1.jpg"></img>
+          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-tesla-model-3-mmp-1-1640025520.jpg"></img>
       </div>
  
   );
@@ -127,6 +127,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -140,6 +141,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />
@@ -176,6 +178,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
   onClose={handleClose}
   aria-labelledby="modal-modal-title"
   aria-describedby="modal-modal-description"
+  
 >
   <Box sx={style}>
     <div>

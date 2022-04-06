@@ -93,7 +93,7 @@ export function Bmw() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon> WELCOME TO BMW WORLD <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <h1 className='world'> WELCOME TO BMW WORLD---- <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
       <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/x7/X7DarkShadow/X3-1680x756_05.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1642656232136.jpg"></img>
       
       
@@ -113,7 +113,7 @@ export function Bmw() {
           first petrol-powered car in 1886</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}} onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/BMRseEVaO-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -150,6 +150,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -163,6 +164,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />

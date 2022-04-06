@@ -68,7 +68,7 @@ export function RollRoyce() {
     {
       "id": "138",
       "name": "ROLLS-ROYCE DAWN",
-      "poster": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F09%2Fmansory-rolls-royce-dawn-silver-bullet-soft-kit-custom-tuned-conversion-limited-edition-1.jpg?q=75&w=800&cbr=1&fit=max",
+      "poster": "http://cdn.carbuzz.com/gallery-images/1600/863000/600/863645.jpg",
       "varients":["Base= 6.9-crores","Middle=9.4-crores","Top= 12-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Petrol",
@@ -83,9 +83,9 @@ export function RollRoyce() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon> WELCOME TO ROLLS-ROYCE WORLD <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <h1 className='world'>ROLLS-ROYCE WELCOMES YOU----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
       
-      <img src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-7-5-bb-cullinan/components/rolls-royce-black-badge-cullinan-product-page-carousel-1-d.jpg/jcr:content/renditions/cq5dam.web.1920.webp'></img>
+      <img src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp'></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -101,7 +101,7 @@ export function RollRoyce() {
           and other industries</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  onClick={()=>seteast(!east)}>TRAILER</Button>🎉🎉</h1>
+              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER</Button>🎉🎉</h1>
               
               </div>
               {east ? <iframe width="100%" height="701" src="https://www.youtube.com/embed/_JP0fl3S1uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -138,6 +138,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <IconButton 
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={()=>setshow(!show)}
       >
   <ExpandCircleDownIcon />
@@ -151,6 +152,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       
       color="primary" 
       aria-label="add to shopping cart"
+      style={{ color:"rgb(41, 39, 39)"}}
       onClick={handleOpen}
       >
      <DashboardCustomizeIcon />
