@@ -14,6 +14,7 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CloseIcon from '@mui/icons-material/Close';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { orange } from "@mui/material/colors";
 export function Tesla() {
   const cars= [
     {
@@ -21,7 +22,7 @@ export function Tesla() {
       "name": "TESLA-Model 3",
       "poster": "https://i.insider.com/5a872a6cd030721b008b4727?width=1136&format=jpeg",
       "varients":["Base= 60-Lakhs","Middle= 80-Lakhs","Top= 1.2-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown",],
       "type": "Electrical",
      // "price": [{Base:60 Lakhs,Middle:80 Lakhs,Top:1.2 crores}],
      "price": "1.2 crores",
@@ -69,7 +70,14 @@ export function Tesla() {
 
   return (
     <div>
-   <h1 className='world'> WELCOME TO TESLA WORLD ----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+    <div className='header'>
+  <div className='header__logo'>
+  
+  <img  className='header__logoImg' src='https://assets.website-files.com/5e8fceb1c9af5c3915ec97a0/5ec2f037975ed372da9f6286_Tesla-Logo-PNG-HD.png'
+            alt='profile' />
+           
+  </div>
+  </div>
       
       <img src='https://wegoelectric.net/wp-content/uploads/2021/08/model-3-tesla.jpeg'></img>
       
@@ -178,7 +186,8 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
   onClose={handleClose}
   aria-labelledby="modal-modal-title"
   aria-describedby="modal-modal-description"
-  
+ 
+ 
 >
   <Box sx={style}>
     <div>

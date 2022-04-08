@@ -14,6 +14,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import TextField from '@mui/material/TextField';
 import AllInclusiveSharpIcon from '@mui/icons-material/AllInclusiveSharp';
+import { Menu } from './Menu';
+import { Login } from './Login';
 
 export default function App() {
 
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="/tata"><Tata/></Route>
           <Route path="/hyundai"><Hyundai/></Route>
           <Route path="/about"><About/></Route>
+          <Route path="/menu"><Menu/></Route>
+          <Route path="/login"><Login/></Route>
           
         </Switch>
       </Router>
@@ -43,10 +47,7 @@ function Home(){
 
    return(
    <div className='pic'>
-     <div className='qa'>
-     <h1><span className='nj'><AllInclusiveSharpIcon /> </span><b>WANT TO KNOW ABOUT CARS...</b><span className='nj'> <AllInclusiveSharpIcon /> </span> </h1>
-        <h2>THEN SIMPLY SEARCH!</h2>
-        </div>
+     
         <div className='gh'>
           <h1>DRIVE IT LIKE YOUR<br/> LAST DAY!</h1>
         </div>
@@ -62,4 +63,5 @@ function Home(){
   
   );
 }
+
 

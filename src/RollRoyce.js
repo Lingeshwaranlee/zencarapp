@@ -21,7 +21,7 @@ export function RollRoyce() {
       "name": "ROLLS-ROYCE GHOST",
       "poster": "https://www.wallpaperup.com/uploads/wallpapers/2017/10/23/1129940/de7f2008221d92f2f63ecfa1037e4675-700.jpg",
       "varients":["Base= 7.9-crores","Middle=9-crores","Top= 11-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
       "speed": "155 miles per hour",
       "mileage": " 6.33 kmpl",
@@ -32,7 +32,7 @@ export function RollRoyce() {
       "name": "ROLLS-ROYCE PHANTOM",
       "poster": "https://imageio.forbes.com/specials-images/imageserve/617a778d66fbfc6c231e3a1a/The-new-Rolls-Royce-Ghost-Black-Badge/960x0.jpg?fit=bounds&format=jpg&width=960",
       "varients":["Base= 7.9-crores","Middle=9-crores","Top= 11-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
       "price": "10.48 Crore",
       "speed": "155 mph",
@@ -45,7 +45,7 @@ export function RollRoyce() {
       "name": "ROLLS-ROYCE  CULLINAN",
       "poster": "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp",
       "varients":["Base= 6.9-crores","Middle=9.4-crores","Top= 12-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
        "speed": "155 miles per hour",
       "mileage": "9.5 kmpl",
@@ -57,7 +57,7 @@ export function RollRoyce() {
       "name": "ROLLS-ROYCE WRAITH",
       "poster": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F04%2Fspofec-overdose-rolls-royce-black-badge-wraith-wide-body-kit-tuned-v12-custom-rare-limited-edition-novitec-0.jpg?w=960&cbr=1&q=90&fit=max",
       "varients":["Base= 6.9-crores","Middle=9.4-crores","Top= 12-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
       "price": "7.21 Crore",
       "speed": "155 miles per hour",
@@ -70,7 +70,7 @@ export function RollRoyce() {
       "name": "ROLLS-ROYCE DAWN",
       "poster": "http://cdn.carbuzz.com/gallery-images/1600/863000/600/863645.jpg",
       "varients":["Base= 6.9-crores","Middle=9.4-crores","Top= 12-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
       "price": "7.85 Crore",
       "speed": "155 miles per hour",
@@ -83,7 +83,12 @@ export function RollRoyce() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'>ROLLS-ROYCE WELCOMES YOU----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <div className='header1'>
+  <div className='header__logo1'>
+    <img className='header__logoImgq' src="https://www.carlogos.org/logo/Rolls-Royce-RR-logo-1920x1080.png"></img>
+  
+  </div>
+  </div>
       
       <img src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp'></img>
       

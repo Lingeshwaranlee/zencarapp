@@ -170,7 +170,7 @@ type="file"
  onBlur={ formik.handleBlur}
   />
 {formik.touched.identity && formik.errors.identity ? formik.errors.name :""}
-    <Button variant="contained"  type='submit'>submit</Button>
+    <Button variant="contained"  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  type='submit'>submit</Button>
 </form>
 
 </div>

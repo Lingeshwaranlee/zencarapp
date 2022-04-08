@@ -90,7 +90,13 @@ export function Benz() {
   const[east,seteast]=useState(false);
   return (
     <div>
-       <h1 className='world'>MERCEDES BENZ WELCOMES YOU----<FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <div className='header3'>
+  <div className='header__logo1'>
+  <img className='header__logoImgw' src="http://www.vonsung.com/wp-content/uploads/2020/04/mercedes-benz-logo-horizontal.png"></img>
+  <img  className='header__logoImg3' src='https://www.carlogos.org/logo/Mercedes-Benz-emblem-1926-1920x1080.png'
+            alt='profile' />
+  </div>
+  </div>
       <img src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my22/glc/coupe/class-page/series/2022-GLC-COUPE-CH-1-1-DR.jpg"></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>

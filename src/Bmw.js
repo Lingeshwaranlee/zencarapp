@@ -93,7 +93,13 @@ export function Bmw() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'> WELCOME TO BMW WORLD---- <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+      <div className='header2'>
+  <div className='header__logo1'>
+  <img className='header__logoImgw' src="https://www.bmwgroup.com/etc.clientlibs/bmwgroup/clientlibs/clientlib-site/resources/img/brands/BMW-MR_stdBM_pos_rgb_HR.png"></img>
+  <img  className='header__logoImg2' src='https://listcarbrands.com/wp-content/uploads/2015/10/BMW-LOGO.png'
+            alt='profile' />
+  </div>
+  </div>
       <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/x7/X7DarkShadow/X3-1680x756_05.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1642656232136.jpg"></img>
       
       

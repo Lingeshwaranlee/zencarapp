@@ -20,7 +20,7 @@ body{
 
 .nj{
   width:100%;
-  color: red;
+  color:;
 }
 .leo{
   text-align: center;
@@ -108,7 +108,7 @@ object-fit: cover;
   text-align: center;
   background-color: rgb(41, 39, 39);
   color: rgb(185, 183, 183);
-  padding: 50px;
+  padding: 30px;
 }
 .kill{
   text-align: center;
@@ -276,4 +276,186 @@ object-fit: cover;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+.hug{
+  margin-left: 630px !important;
+  align-items: center;
+  gap: 15px;
+}
+.header {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+.header__logoImg {
+  object-fit: cover;
+  flex: 1;
+  width: 200px;
+ 
+margin-left: 600px;
+
+}
+.header1 {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+}
+.header__logoImgq {
+  object-fit: cover;
+  flex: 1;
+  width: 180px;
+ background-color: aliceblue !important;
+margin-left:620px;
+padding-left: 3px;
+padding-right: 3px;
+
+}
+.header__logo1{
+display: flex;
+}
+
+.header__logoImg1 {
+  object-fit: cover;
+  flex: 1;
+  width: 110px;
+ background-color: aliceblue !important;
+margin-left:530px;
+border-radius: 22px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+.header2 {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header__logoImg2 {
+  object-fit: cover;
+  flex: 1;
+  width: 180px;
+ 
+margin-left: 520px;
+
+}
+
+.header3 {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logoImgw {
+  object-fit: cover;
+  flex: 1;
+  width: 180px;
+ background-color: aliceblue !important;
+margin-left:620px;
+
+
+}
+.header__logoImg3 {
+  object-fit: cover;
+  flex: 1;
+  width: 150px;
+ 
+margin-left: 540px;
+
+}
+.header4 {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.header__logoImg4 {
+  object-fit: cover;
+  flex: 1;
+  width: 200px;
+ 
+margin-left: 650px;
+
+}
+.header__logoImge {
+  object-fit: cover;
+  flex: 1;
+  width: 180px;
+ background-color: aliceblue !important;
+margin-left:450px;
+padding-left: 3px;
+padding-right: 3px;
+
+}
+.menuItem {
+  border-bottom: 1px solid #d0d1d2;
+  text-align: left;
+  cursor: pointer;
+}
+
+.oii {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 15px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.menu {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 280px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.menu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.header__menu > .MuiSvgIcon-root {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.u1{
+  margin-left:185px;
 }

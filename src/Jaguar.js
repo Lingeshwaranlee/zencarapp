@@ -80,7 +80,13 @@ export function Jaguar() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <h1 className='world'> WELCOME TO JAGUAR WORLD---- <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+     <div className='header4'>
+  <div className='header__logo1'>
+  <img  className='header__logoImg4' src='https://1000marken.net/wp-content/uploads/2021/01/Jaguar-logo.png'
+            alt='profile' />
+           
+  </div>
+  </div>
 
 <img src="https://cdn.motor1.com/images/mgl/q1ZM1/s1/2019-jaguar-f-pace-svr-first-drive.jpg"></img>
       

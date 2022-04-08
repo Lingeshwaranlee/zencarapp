@@ -115,7 +115,12 @@ export function Hyundai() {
   return (
     
     <div>
-     <h1 className='world'> WELCOME TO HYUNDAI WORLD---- <FontAwesomeIcon icon={faChargingStation} ></FontAwesomeIcon></h1>
+    <div className='header1'>
+  <div className='header__logo1'>
+    <img className='header__logoImgq' src="https://www.koreatechtoday.com/wp-content/uploads/2020/01/hyundai-motor-group-logo.jpg"></img>
+  
+  </div>
+  </div>
       <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Tucson/Highlights/Hyundai-Tucson-InnerPage-Banner2-PC-new.jpg"></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>

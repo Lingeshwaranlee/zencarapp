@@ -21,7 +21,7 @@ export function Tata() {
       "name": "TATA Punch",
       "poster": "https://cars.tatamotors.com/images/punch/tata-punch-features-m-banner.jpg",
       "varients":["Base= 9.18 Lakh","Middle= 10-Lakhs","Top= 13.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
        "type": "Petrol",
       "speed": "150 kmph",
       "mileage": "19 km/l combined",
@@ -32,7 +32,7 @@ export function Tata() {
       "name": "TATA Nexon",
       "poster": "https://theautomotiveblog.com/wp-content/uploads/2021/06/nexon-mobile-price-overlay.png",
       "varients":["Base= 13.73 Lakh","Middle= 16 Lakhs","Top= 18.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Diesel/Petrol",
       "speed": "180 kph",
       "mileage": "16-22 km/l combined",
@@ -43,7 +43,7 @@ export function Tata() {
       "name": "TATA Harrier",
       "poster": "https://wallpaperaccess.com/full/2597717.png",
       "varients":["Base= 21.70 Lakh","Middle= 25.70 Lakh","Top= 28.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol/CNG",
       "speed": "180 kmph",
       "mileage": "15-16 km/l combined",
@@ -54,7 +54,7 @@ export function Tata() {
       "name": "TATA  Tiago",
       "poster": "https://www.carbikeindia.com/wp-content/uploads/2021/08/Tata-Tiago-NRG-Launch-in-India.jpg",
       "varients":["Base= 7.70 Lakh","Middle= 9.70 Lakh","Top= 13.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
        "type": "Diesel/Petrol",
       "speed": "165 kmph",
       "mileage": "20 km/l combined",
@@ -65,7 +65,7 @@ export function Tata() {
       "name": "TATA Altroz",
       "poster": "https://cars.tatamotors.com/images/altroz-gallery-mobile-banner-overlay.jpg",
       "varients":["Base= 9.70 Lakh","Middle= 12.70 Lakh","Top= 17.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
        "type": "Diesel/Petrol",
       "speed": "165+ kmph",
       "mileage": "19-25 km/l combined",
@@ -76,7 +76,7 @@ export function Tata() {
       "name": "TATA Tigor",
       "poster": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tata-Tigor/6639/front-right-view-120.jpg",
       "varients":["Base= 8.70 Lakh","Middle= 11.70 Lakh","Top= 15.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol/CNG",
       "price": "8.41 Lakh",
       "speed": "164 kmph",
@@ -88,7 +88,7 @@ export function Tata() {
       "name": "TATA Safari",
       "poster": "https://www.eaglesvine.com/wp-content/uploads/2021/02/New-Tata-Safari-launched-in-India-at-an-introductory-starting.jpg",
       "varients":["Base= 23.29 Lakh","Middle= 28.29 Lakh","Top= 35.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Diesel",
       "price": "23.29 Lakh",
       "speed": "180 kmph",
@@ -100,7 +100,7 @@ export function Tata() {
       "name": "TATA Tiago NRG",
       "poster": "https://images.news18.com/ibnlive/uploads/2021/08/1628423383_tata-tiago-nrg-3.jpg?impolicy=website&width=0&height=0",
       "varients":["Base= 7.17 Lakh","Middle= 9.29 Lakh","Top= 13.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
       "speed": "150 kmph",
       "mileage": "20 km/l combined",
@@ -111,7 +111,7 @@ export function Tata() {
       "name": "TATA Nexon EV",
       "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Nexon-EV/7042/1576845369560/front-left-side-47.jpg",
       "varients":["Base=13.14 Lakh","Middle= 19.14 Lakh","Top= 23.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Electric",
       "price": "13.14 Lakh",
       "speed": "120kmph",
@@ -123,7 +123,7 @@ export function Tata() {
       "name": "TATA Tigor EV",
       "poster": "https://c.ndtvimg.com/2021-08/lfh1n2po_tata-tigor-ev_625x300_25_August_21.jpg",
       "varients":["Base=13.14 Lakh","Middle= 16.14 Lakh","Top= 18.18 Lakh"],
-      "color":["White","Black","Red","Blue","Brown"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Electric",
       "speed": "80kph",
       "mileage": "306km(single-charge)",
@@ -134,9 +134,14 @@ export function Tata() {
   
   return (
     <div>
-    <h1 className='world'><FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon> WELCOME TO TATA WORLD <FontAwesomeIcon icon={faChargingStation}></FontAwesomeIcon></h1>
+    <div className='header1'>
+  <div className='header__logo1'>
+    <img className='header__logoImgq' src="https://1000logos.net/wp-content/uploads/2020/03/Tata-Logo.jpg"></img>
+  
+  </div>
+  </div>
       
-      <img src="https://cars.tatamotors.com/images/kaziranga/punch-kaziranga-desktop-banner-1.png"></img>
+      <img src="https://www.autodevot.com/wp-content/uploads/2019/01/Tata-Harrier.jpg"></img>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
