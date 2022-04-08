@@ -13,6 +13,7 @@ import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 import Box from '@mui/material/Box';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header1 } from "./Header1";
 
 export function RollRoyce() {
   const cars = [
@@ -89,8 +90,8 @@ export function RollRoyce() {
   
   </div>
   </div>
-      
-      <img src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp'></img>
+      <Header1/>
+     
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -264,3 +265,4 @@ function Counter(){
   
   )
 }
+

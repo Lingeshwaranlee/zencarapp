@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header5 } from './Header5';
 export function Tata() {
   const cars = [
     {
@@ -141,7 +142,7 @@ export function Tata() {
   </div>
   </div>
       
-      <img src="https://www.autodevot.com/wp-content/uploads/2019/01/Tata-Harrier.jpg"></img>
+      <Header5/>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -314,3 +315,4 @@ function Counter(){
   
   )
 }
+

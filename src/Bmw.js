@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header2 } from './Header2';
 export function Bmw() {
   const cars = [
     {
@@ -100,8 +101,8 @@ export function Bmw() {
             alt='profile' />
   </div>
   </div>
-      <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/x7/X7DarkShadow/X3-1680x756_05.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1642656232136.jpg"></img>
-      
+     
+      < Header2/>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -275,3 +276,4 @@ function Counter(){
   
   )
 }
+

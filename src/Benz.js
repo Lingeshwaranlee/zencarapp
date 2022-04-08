@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header3 } from './Header3';
 export function Benz() {
   const cars = [
     {
@@ -97,7 +98,7 @@ export function Benz() {
             alt='profile' />
   </div>
   </div>
-      <img src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my22/glc/coupe/class-page/series/2022-GLC-COUPE-CH-1-1-DR.jpg"></img>
+      <Header3/>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">

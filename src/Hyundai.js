@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header0 } from './Header0';
 
 export function Hyundai() {
   const cars= [
@@ -32,7 +33,7 @@ export function Hyundai() {
     {
       "id": "115",
       "name": "HYUNDAI Creta",
-      "poster": "https://images.news18.com/ibnlive/uploads/2020/12/1608967064_2020-hyundai-creta.jpg?im=Resize,width=360,aspect=fit,type=normal?im=Resize,width=320,aspect=fit,type=normal",
+      "poster": "https://w0.peakpx.com/wallpaper/775/571/HD-wallpaper-hyundai-creta-road-2021-cars-crossovers-mx-spec-su2-2021-hyundai-creta-korean-cars-hyundai.jpg",
       "varients":["Base= 17.79-Lakhs","Middle= 23-Lakhs","Top=28-Lakhs"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Diesel/Petrol",
@@ -121,8 +122,8 @@ export function Hyundai() {
   
   </div>
   </div>
-      <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Tucson/Highlights/Hyundai-Tucson-InnerPage-Banner2-PC-new.jpg"></img>
-      
+     
+      <Header0/>
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
@@ -292,3 +293,4 @@ function Counter(){
   
   )
 }
+

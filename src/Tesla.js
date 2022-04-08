@@ -15,6 +15,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CloseIcon from '@mui/icons-material/Close';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { orange } from "@mui/material/colors";
+import { Header } from "./Header";
 export function Tesla() {
   const cars= [
     {
@@ -79,7 +80,7 @@ export function Tesla() {
   </div>
   </div>
       
-      <img src='https://wegoelectric.net/wp-content/uploads/2021/08/model-3-tesla.jpeg'></img>
+     <Header/>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -257,4 +258,5 @@ function Counter(){
   
   )
 }
+
 

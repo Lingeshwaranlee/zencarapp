@@ -3,6 +3,10 @@ import"./index.css";
 import { useHistory } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import LanguageIcon from '@mui/icons-material/Language';
+import EvStationIcon from '@mui/icons-material/EvStation';
+import ContactSupportIcon from '@mui/icons-material/ContactSupport';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 export function Menu() {
   
   const history =useHistory(); 
@@ -16,13 +20,22 @@ export function Menu() {
       <MenuItem title='cybertruck' />
       <MenuItem title='roadster' />
       <MenuItem title='semi' />
-      <MenuItem title='charging' />
+      
+      <div className="bale">
+     <span className="hy"><EvStationIcon/></span>  <MenuItem title='charging' />
+       </div>
       <MenuItem title='powerwall' />
       <MenuItem title='commercial solar' />
       <MenuItem title='test drive' />
-      <MenuItem title='find us' />
-      <MenuItem title='support' />
-      <MenuItem title='united states' />
+      <div className="bale">
+     <span className="hy"><PersonSearchIcon/></span> <MenuItem title='find us' />
+       </div>
+       <div className="bale">
+     <span className="hy"><ContactSupportIcon/></span> <MenuItem title='support' />
+       </div>
+      <div className="bale">
+     <span className="hy"><LanguageIcon/></span>  <MenuItem title='united states' />
+       </div>
     </div>
   );
 }

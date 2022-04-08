@@ -14,6 +14,7 @@ import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
+import { Header4 } from './Header4';
 
 export function Jaguar() {
   const cars= [
@@ -88,7 +89,7 @@ export function Jaguar() {
   </div>
   </div>
 
-<img src="https://cdn.motor1.com/images/mgl/q1ZM1/s1/2019-jaguar-f-pace-svr-first-drive.jpg"></img>
+<Header4/>
       
       <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
@@ -261,3 +262,4 @@ function Counter(){
   
   )
 }
+
