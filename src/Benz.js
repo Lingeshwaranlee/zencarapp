@@ -15,8 +15,21 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header3 } from './Header3';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 export function Benz() {
   const cars = [
+    {
+      "id": "130",
+      "name": "Mercedes-Benz AMG GT",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/AMG-GT/7842/1609141333284/front-left-side-47.jpg",
+      "varients":["Base=2.64 crore","Middle=3.75 crore","Top=7.2-crores"],
+      "color":["White","Black","Red","Blue","Brown"],
+      "type": "Petrol",
+      "speed": "312 km/h",
+      "mileage": "8-11 km/l combined",
+      "seat":2,
+    },
     {
       "id": "128",
       "name": "Mercedes-Benz EQB",
@@ -40,17 +53,7 @@ export function Benz() {
       "mileage": "770km(single-charge)",
       "seat":5,
     },
-    {
-      "id": "130",
-      "name": "Mercedes-Benz AMG GT",
-      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/AMG-GT/7842/1609141333284/front-left-side-47.jpg",
-      "varients":["Base=2.64 crore","Middle=3.75 crore","Top=7.2-crores"],
-      "color":["White","Black","Red","Blue","Brown"],
-      "type": "Petrol",
-      "speed": "312 km/h",
-      "mileage": "8-11 km/l combined",
-      "seat":2,
-    },
+   
     {
       "id": "131",
       "name": "Mercedes-Benz EQE",
@@ -65,7 +68,7 @@ export function Benz() {
     {
       "id": "132",
       "name": "Mercedes-Benz E-Class Cabriolet Facelift",
-      "poster": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200527021853_Mercedes-E-Class_Cabriolet.jpg",
+      "poster": "https://img-ik.cars.co.za/news-site-za/images/2020/10/Mercedes-Benz-EClass-7.jpg",
       "varients":["Base=84 lakhs","Middle=1.75 crore","Top=3.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Petrol",
@@ -100,7 +103,7 @@ export function Benz() {
   </div>
       <Header3/>
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">BENZ-SERIES <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -108,13 +111,13 @@ export function Benz() {
     <div className="joy">
     <h1>About Bmw:</h1>
       <h2 className="tes1">BMW’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>BMW serves purely as a status symbol for some, while for others 
+      <h3 className="tes">BMW serves purely as a status symbol for some, while for others 
         it's a belief in the mantra “The Ultimate Driving Machine” and philosophy 
         of high revving engines. With that in mind, some are not only attracted to the
          BMW brand just because they produce great cars, but also because of their way of doing things..</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+            <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/csAXruiBLTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -127,6 +130,7 @@ export function Benz() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory();
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -198,7 +202,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn'onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

@@ -14,6 +14,8 @@ import Box from '@mui/material/Box';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header1 } from "./Header1";
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 
 export function RollRoyce() {
   const cars = [
@@ -93,7 +95,7 @@ export function RollRoyce() {
       <Header1/>
      
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">ROLLSROYCE-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -101,13 +103,13 @@ export function RollRoyce() {
     <div className="joy">
     <h1>About RollRoyce:</h1>
       <h2 className="tes1">RollRoyce’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>Rolls-Royce Holdings plc is a British multinational aerospace and defence company
+      <h3 className="tes">Rolls-Royce Holdings plc is a British multinational aerospace and defence company
          incorporated in February 2011. The company owns Rolls-Royce, a business established 
          in 1904 which today designs, manufactures and distributes power systems for aviation
           and other industries</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER</Button>🎉🎉</h1>
+            <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ? <iframe width="100%" height="701" src="https://www.youtube.com/embed/_JP0fl3S1uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -118,6 +120,7 @@ export function RollRoyce() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory();
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -189,7 +192,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn' onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <div className="yuvan">
       <Modal
   open={open}

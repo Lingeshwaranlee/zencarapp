@@ -65,6 +65,18 @@ object-fit: cover;
 }
 .tes1{
   padding-left: 350px;
+  color: #393c41;
+  font-weight: 500;
+  font-size: 23px;
+
+}
+.tes{
+
+  color: #393c41;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 25px;
+  
 
 }
 .tes2{
@@ -83,12 +95,16 @@ object-fit: cover;
   
   
 }
-
+.ishu{
+  width:1550px
+}
 
 .brand{
   text-align: center;
-  background-color: rgb(41, 39, 39);
-  color: rgb(185, 183, 183);
+
+  color: #393c41;
+  font-weight: 500;
+  font-size: 28px;
 }
 .tesla-poster{
   width: 650px;
@@ -219,18 +235,19 @@ object-fit: cover;
   display:flex !important;
 }
 .zee{
-  margin-left: 280px;
+  margin-left: 180px;
   
 }
 .tamil{
   margin-left: 20px;
 }
 .yaal{
-  width: 165px;
-  height: 35px;
+  width: 205px;
+  height: 55px;
+  background-color: rgb(180, 175, 175)
 }
 .btn{
-  background-color: rgb(133, 130, 130) !important;
+  background-color:  rgb(180, 175, 175) !important;
   color:black;
   font-size: medium;
   margin: 10px;
@@ -255,7 +272,7 @@ object-fit: cover;
     margin-right: 500px;
 }
 .folks{
-  margin-left: 400px;
+  margin-left: 600px;
 }
 .poo{
   margin-left: 330px;
@@ -660,6 +677,35 @@ padding-right: 3px;
   color: black;
 }
 .headerBlock__infoText3 {
+  text-align: center;
+  flex: 1;
+}
+.headerBlock__infoText2 > h1 {
+  color: wheat;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.headerBlock__infoText2 > h4 {
+  font-weight: 400;
+  font-size: 15px;
+  color: wheat;
+}
+
+.headerBlock__infoText2 > h4 > span {
+  padding-bottom: 4px;
+  padding-top: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+  color: wheat;
+  cursor: pointer;
+}
+
+.headerBlock__infoText2 > h4 > span:hover {
+  border-bottom-width: 2px;
+  color: wheat;
+}
+.headerBlock__infoText2 {
   text-align: center;
   flex: 1;
 }

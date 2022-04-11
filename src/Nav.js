@@ -22,6 +22,7 @@ import { useHistory } from 'react-router-dom';
         <Button color="inherit" onClick={() => history.push("/tata")}>TATA</Button>
         <Button color="inherit" onClick={() => history.push("/hyundai")}>HYUNDAI</Button>
         <Button color="inherit" onClick={() => history.push("/about")}><IconButton color="primary" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  aria-label="add to shopping cart"><InfoIcon /></IconButton></Button>
+       
         <div className='hug'>
         
         <Button color="inherit" onClick={() => history.push("/login")}>LOGIN</Button>

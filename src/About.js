@@ -44,16 +44,16 @@ export function About() {
 }
 
 
-const formvalidation=yup.object({name:yup.string().required("fill this line"),
-birthday:yup.string().required("fill this line"),
-occupation:yup.string().required("fill this line"),
-phone:yup.string().required("fill this line"),
-payment:yup.string().required("fill this line"),
-brand:yup.string().required("fill this line"),
-series:yup.string().required("fill this line"),
-address:yup.string().required("fill this line"),
-adhar:yup.string().required("fill this line"),
-identity:yup.string().required("fill this line"),
+const formvalidation=yup.object({name:yup.string().required("fill this line ❌❌❌"),
+birthday:yup.string().required("fill this line ❌❌❌"),
+occupation:yup.string().required("fill this line ❌❌❌"),
+phone:yup.string().required("fill this line ❌❌❌"),
+payment:yup.string().required("fill this line ❌❌❌"),
+brand:yup.string().required("fill this line ❌❌❌"),
+series:yup.string().required("fill this line ❌❌❌"),
+address:yup.string().required("fill this line ❌❌❌"),
+adhar:yup.string().required("fill this line ❌❌❌"),
+identity:yup.string().required("fill this line ❌❌❌"),
   })
 
 

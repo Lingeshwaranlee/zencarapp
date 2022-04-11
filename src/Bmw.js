@@ -15,6 +15,8 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header2 } from './Header2';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 export function Bmw() {
   const cars = [
     {
@@ -104,7 +106,7 @@ export function Bmw() {
      
       < Header2/>
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">BMW-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -113,14 +115,14 @@ export function Bmw() {
      
     <h1>About Bmw:</h1>
       <h2 className="tes1">BMW’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>Mercedes-Benz makes perhaps the most advanced, luxurious, and
+      <h3 className="tes">Mercedes-Benz makes perhaps the most advanced, luxurious, and
          performance-oriented automobiles on the planet, and that status 
          is not a fluke. They've been pumping out innovative and technologically
           groundbreaking vehicles since Karl Benz introduced what's considered the 
           first petrol-powered car in 1886</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained"  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}} onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+            <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/BMRseEVaO-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -131,6 +133,7 @@ export function Bmw() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory();
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -202,7 +205,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn'onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

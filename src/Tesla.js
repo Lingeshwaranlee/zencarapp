@@ -12,10 +12,11 @@ import Stack from '@mui/material/Stack';
 import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import CloseIcon from '@mui/icons-material/Close';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
-import { orange } from "@mui/material/colors";
 import { Header } from "./Header";
+import { useHistory } from 'react-router-dom';
+
 export function Tesla() {
   const cars= [
     {
@@ -58,7 +59,7 @@ export function Tesla() {
     {
       "id": "103",
       "name": "TESLA-Model Y",
-      "poster": "https://tesla-cdn.thron.com/delivery/public/image/tesla/c7359a76-05c0-4b00-a5ac-3ad005acdc5f/bvlatuR/std/0x0/Range_Desktop-poster",
+      "poster": "https://images.cars.com/cldstatic/wp-content/uploads/tesla-model-y-2022-01-blue-exterior-front-angle-sedan-scaled.jpg",
       "varients":["Base= 70-Lakhs","Middle= 90-Lakhs","Top= 1.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       //"price": [{"Base":"70 Lakhs","Middle":"90 Lakhs","Top":"1.2 crores"}],
@@ -82,7 +83,7 @@ export function Tesla() {
       
      <Header/>
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">TESLA-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -90,7 +91,7 @@ export function Tesla() {
     <div className="joy">
       <h1>About Tesla:</h1>
       <h2 className="tes1">Tesla’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>Tesla was founded in 2003 by a group of engineers who wanted to
+      <h3 className="tes">Tesla was founded in 2003 by a group of engineers who wanted to
          prove that people didn’t need to compromise to drive electric 
          – that electric vehicles can be better, quicker and more fun to
           drive than gasoline cars. Today, Tesla builds not only all-electric 
@@ -99,17 +100,19 @@ export function Tesla() {
             a zero-emission future, the better.</h3>
             </div>
             <div className="folks">
-              <h1 >🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+              <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/jWreyC2l-dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-          <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-tesla-model-3-mmp-1-1640025520.jpg"></img>
+          <img className="ishu" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/b89f75da-2da4-4c2f-a94e-458b58bdfc26/bvlatuR/std/4096x3072/Model-S-Specs-Hero-Desktop-LHD"></img>
       </div>
  
   );
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+    
+  const history =useHistory(); 
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -181,7 +184,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn' onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

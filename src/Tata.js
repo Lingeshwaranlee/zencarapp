@@ -15,6 +15,8 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header5 } from './Header5';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 export function Tata() {
   const cars = [
     {
@@ -87,7 +89,7 @@ export function Tata() {
     {
       "id": "110",
       "name": "TATA Safari",
-      "poster": "https://www.eaglesvine.com/wp-content/uploads/2021/02/New-Tata-Safari-launched-in-India-at-an-introductory-starting.jpg",
+      "poster": "http://www.firstpost.com/wp-content/uploads/2021/01/2021-tata-safari-21-min.jpg",
       "varients":["Base= 23.29 Lakh","Middle= 28.29 Lakh","Top= 35.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Diesel",
@@ -144,21 +146,21 @@ export function Tata() {
       
       <Header5/>
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">TATA-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
     <div className="joy">
-    <h1>About Tata:</h1>
+    <h1>Tata</h1>
       <h2 className="tes1">TATA’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>Tata Group is an Indian multinational conglomerate headquartered in Mumbai.
+      <h3 className="tes">Tata Group is an Indian multinational conglomerate headquartered in Mumbai.
          Founded in 1868 by Jamshedji Tata, the group gained international recognition
           after purchasing several global companies. It is one of the biggest and oldest
            industrial groups in India.</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}} onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+            <h1 >TRAILER--<IconButton  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/Rag287hQj28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  :""}
@@ -170,6 +172,7 @@ export function Tata() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory();
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -241,7 +244,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn'onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

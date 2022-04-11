@@ -15,7 +15,8 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header4 } from './Header4';
-
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 export function Jaguar() {
   const cars= [
     {
@@ -91,7 +92,7 @@ export function Jaguar() {
 
 <Header4/>
       
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">JAGUAR-SERIES <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -99,14 +100,14 @@ export function Jaguar() {
     <div className="joy">
     <h1>About Jaguar:</h1>
           <h2 className="tes1">Jaguar’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-          <h3>Jaguar Cars was the company that was responsible for the production of
+          <h3 className="tes">Jaguar Cars was the company that was responsible for the production of
              Jaguar cars until its operations were fully merged with those of Land Rover 
              to form Jaguar Land Rover on 1 January 2013.Jaguar is the luxury vehicle
               brand of Jaguar Land Rover, a British multinational car manufacturer with 
               its headquarters in Whitley, Coventry, England.</h3>
         </div>
         <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+        <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/bO08STHIhgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -117,6 +118,7 @@ export function Jaguar() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory(); 
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -188,7 +190,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART <AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn' onClick={() => history.push("/book") }>ADD TO CART <AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

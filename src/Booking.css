@@ -1,0 +1,16 @@
+.bookImg{
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    padding: 5px;
+}
+.book{
+    display: flex;
+}
+.order{
+    padding-left: 520px;
+}
+.order>h3{
+    padding-left: 75px;
+}

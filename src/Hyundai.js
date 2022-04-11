@@ -15,6 +15,8 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header0 } from './Header0';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
+import { useHistory } from 'react-router-dom';
 
 export function Hyundai() {
   const cars= [
@@ -124,7 +126,7 @@ export function Hyundai() {
   </div>
      
       <Header0/>
-      <h1 className="brand">BRANDS OF CARS AVAILABLE  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">HYUNDAI-SERIES <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -132,12 +134,12 @@ export function Hyundai() {
     <div className="joy">
     <h1>About Hyundai:</h1>
       <h2 className="tes1">HYUNDAI’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3>Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
+      <h3 className="tes">Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
         known as Hyundai, is a South Korean multinational automotive manufacturer
          headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.</h3>
             </div>
             <div className="folks">
-              <h1>🎉🎉GET READY FOLKS -- <Button variant="contained" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)}>TRAILER-CLICK ME</Button>🎉🎉</h1>
+            <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/N3tH_3A1000" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -148,6 +150,7 @@ export function Hyundai() {
 }
 
 function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
+  const history =useHistory();
   const ji={textAlign:'center'}
   const[show ,setshow]=useState(false)
   const [open, setOpen] = useState(false);
@@ -219,7 +222,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?  <button className='btn'onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
       <Modal
   open={open}
   onClose={handleClose}

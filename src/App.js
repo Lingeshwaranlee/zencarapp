@@ -16,6 +16,7 @@ import TextField from '@mui/material/TextField';
 import AllInclusiveSharpIcon from '@mui/icons-material/AllInclusiveSharp';
 import { Menu } from './Menu';
 import { Login } from './Login';
+import { Booking } from './Booking';
 
 export default function App() {
 
@@ -35,7 +36,8 @@ export default function App() {
           <Route path="/hyundai"><Hyundai/></Route>
           <Route path="/about"><About/></Route>
           <Route path="/menu"><Menu/></Route>
-          <Route path="/login"><Login/></Route>
+          <Route  path="/login"><Login/></Route>
+          <Route  path="/book"><Booking/></Route>
           
         </Switch>
       </Router>
@@ -63,5 +65,6 @@ function Home(){
   
   );
 }
+
 
 
