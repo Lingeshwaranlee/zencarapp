@@ -9,8 +9,28 @@
     display: flex;
 }
 .order{
-    padding-left: 520px;
+  margin-left: 400px;
+    color: #393c41;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 25px;
+    
 }
-.order>h3{
-    padding-left: 75px;
+h3{
+    padding-left: 120px;
+}
+h4{
+    padding-left: 180px;
+}
+.buttons{
+  display: flex;
+ gap: 40px;
+   margin-left: 200px; 
+}
+.button{
+    display: flex;
+ gap: 40px;
+   margin-left: 100px; 
+   border-radius: 42px !important;
+   text-decoration: none;
 }
