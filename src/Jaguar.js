@@ -213,11 +213,13 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
 </h2>
     <img className='tesla-poster-modal'src={poster}></img>
     <hr></hr>
-    <h3 style={ji}><FontAwesomeIcon icon={faGasPump}></FontAwesomeIcon>: {type}</h3> 
-    <h3 style={ji}><FontAwesomeIcon icon={faGaugeHigh}></FontAwesomeIcon>: {speed}</h3>
-    <h3 style={ji}><FontAwesomeIcon icon={faGaugeSimpleHigh}></FontAwesomeIcon>:{mileage}</h3>
-    <h3 style={ji}><AirlineSeatReclineExtraIcon/>:{seat}</h3>
-    <h3 style={ji}> RATINGS<RatingSize/></h3>
+    <div className="neo">
+    <h3><FontAwesomeIcon icon={faGasPump}></FontAwesomeIcon>: {type}</h3> 
+    <h3><FontAwesomeIcon icon={faGaugeHigh}></FontAwesomeIcon>: {speed}</h3>
+    <h3><FontAwesomeIcon icon={faGaugeSimpleHigh}></FontAwesomeIcon>:{mileage}</h3>
+    <h3><AirlineSeatReclineExtraIcon/>:{seat}</h3>
+    <h3> RATINGS<RatingSize/></h3>
+    </div>
     <div className="abd">
     <Counter />
     </div>
