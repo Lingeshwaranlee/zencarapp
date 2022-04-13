@@ -16,6 +16,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header } from "./Header";
 import { useHistory } from 'react-router-dom';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
 export function Tesla() {
   const cars= [
@@ -100,7 +101,7 @@ export function Tesla() {
             a zero-emission future, the better.</h3>
             </div>
             <div className="folks">
-              <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/jWreyC2l-dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -184,7 +185,8 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn' onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
+      {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+     
       <Modal
   open={open}
   onClose={handleClose}

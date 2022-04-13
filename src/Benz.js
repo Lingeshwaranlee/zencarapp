@@ -17,6 +17,7 @@ import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header3 } from './Header3';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 export function Benz() {
   const cars = [
     {
@@ -109,20 +110,21 @@ export function Benz() {
       
     </div>
     <div className="joy">
-    <h1>About Bmw:</h1>
-      <h2 className="tes1">BMW’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">BMW serves purely as a status symbol for some, while for others 
+    <h1>About Benz:</h1>
+      <h2 className="tes1">Benz’s mission is to accelerate the world’s transition to sustainable energy.</h2>
+      <h3 className="tes">BENZ serves purely as a status symbol for some, while for others 
         it's a belief in the mantra “The Ultimate Driving Machine” and philosophy 
         of high revving engines. With that in mind, some are not only attracted to the
          BMW brand just because they produce great cars, but also because of their way of doing things..</h3>
             </div>
             <div className="folks">
-            <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
-              
+           
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/csAXruiBLTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
              <div className='jh'>
-              <img   src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my22/glc/coupe/class-page/series/2022-GLC-COUPE-HERO-DR.jpg"></img>
+              <img   src="https://www.bmw.mu/content/dam/bmw/common/home/teaser/bmw-x-series-ix-onepager-home-teaser-1680x756.jpg.asset.1635438185820.jpg"></img>
       </div>
       </div>
  
@@ -202,7 +204,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn'onClick={() => history.push("/book") }>ADD TO CART<AddShoppingCartIcon/></button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
       <Modal
   open={open}
   onClose={handleClose}

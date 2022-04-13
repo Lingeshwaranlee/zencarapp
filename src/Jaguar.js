@@ -17,6 +17,8 @@ import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header4 } from './Header4';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+
 export function Jaguar() {
   const cars= [
     {
@@ -57,7 +59,7 @@ export function Jaguar() {
     {
       "id": "142",
       "name": "JAGUAR XE",
-      "poster": "https://www.companycartoday.co.uk/wp-content/uploads/2019/05/XE-D180-Eiger-Grey_-123-1.jpg",
+      "poster": "https://car-images.bauersecure.com/pagefiles/86604/xe_100.jpg",
       "varients":["Base=48.50  Lakhs","Middle= 1.2-crores","Top= 3.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Petrol",
@@ -107,7 +109,7 @@ export function Jaguar() {
               its headquarters in Whitley, Coventry, England.</h3>
         </div>
         <div className="folks">
-        <h1 >TRAILER--<IconButton style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}  onClick={()=>seteast(!east)} ><VideoCameraBackIcon/></IconButton> </h1>
+        <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/bO08STHIhgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -190,7 +192,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-      {show?  <button className='btn' onClick={() => history.push("/book") }>ADD TO CART <AddShoppingCartIcon/></button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
       <Modal
   open={open}
   onClose={handleClose}
