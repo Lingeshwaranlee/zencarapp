@@ -44,18 +44,19 @@ export function Jaguar() {
       "speed": "200 kmph",
       "mileage": "470 km(single-charge)",
       "seat": "5"
-    },
-    {
-      "id": "141",
-      "name": "JAGUAR  XF",
-      "poster": "https://di-uploads-pod6.dealerinspire.com/jaguardarien/uploads/2018/06/2019-jaguar-f-type-coupe-f-type-r-in-yulong-white-with-silver-weave-carbon-fiber-packages.jpg",
-      "varients":["Base=76 Lakhs","Middle= 1.2-crores","Top= 3.2-crores"],
+    },{
+      "id": "143",
+      "name": "The Land Rover Defender",
+      "poster": "https://www.wallpaperup.com/uploads/wallpapers/2019/11/20/1356577/6db17eba071afc884f4c1039c05e39a6-700.jpg",
+      "varients":["Base=2.61 crore","Middle= 4-crores","Top= 8.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
-      "type": "DIESEL/PETROL",
-      "speed": "235 kmph",
-      "mileage": " (13.1 to 19.3 Km/l)",
-      "seat": "5"
+      "type": "Petrol",
+      "price": "2.61 crore",
+      "speed": "250 kmph",
+      "mileage": "(10.9 to 15.3 Km/l)",
+      "seat": "2"
     },
+    
     {
       "id": "142",
       "name": "JAGUAR XE",
@@ -79,18 +80,18 @@ export function Jaguar() {
       "speed": "250 kmph",
       "mileage": "(10.9 to 15.3 Km/l)",
       "seat": "2"
-    },{
-      "id": "143",
-      "name": "The Land Rover Defender",
-      "poster": "https://www.wallpaperup.com/uploads/wallpapers/2019/11/20/1356577/6db17eba071afc884f4c1039c05e39a6-700.jpg",
-      "varients":["Base=2.61 crore","Middle= 4-crores","Top= 8.2-crores"],
+    },
+    {
+      "id": "141",
+      "name": "JAGUAR  XF",
+      "poster": "https://di-uploads-pod6.dealerinspire.com/jaguardarien/uploads/2018/06/2019-jaguar-f-type-coupe-f-type-r-in-yulong-white-with-silver-weave-carbon-fiber-packages.jpg",
+      "varients":["Base=76 Lakhs","Middle= 1.2-crores","Top= 3.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
-      "type": "Petrol",
-      "price": "2.61 crore",
-      "speed": "250 kmph",
-      "mileage": "(10.9 to 15.3 Km/l)",
-      "seat": "2"
-    }
+      "type": "DIESEL/PETROL",
+      "speed": "235 kmph",
+      "mileage": " (13.1 to 19.3 Km/l)",
+      "seat": "5"
+    },
   ];
   const[east,seteast]=useState(false);
   return (
@@ -124,9 +125,9 @@ export function Jaguar() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cdn.carbuzz.com/gallery-images/2020-jaguar-xf-sedan-carbuzz-345330.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a JAGUAR.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://wallpapercave.com/wp/wp6014820.jpg'></img><h2 style={{textAlign:"center"}}>Defender xs 90's edition.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://images.caricos.com/l/land_rover/2020_land_rover_defender_90/images/2560x1440/2020_land_rover_defender_90_86_2560x1440.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard  Connects you worldwide.</h2></div>
   
 </div>
 <div className='hover1'>

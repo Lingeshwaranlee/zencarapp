@@ -64,10 +64,26 @@ function Home(){
   <h4 className="test" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
   
 </div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.6speedonline.com/wp-content/uploads/2016/08/Mercedes-AMG1.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.topgear.com/sites/default/files/cars-car/image/2021/03/lr_def_90_x_p400_gondwana_stone_gaydon_281020_005.jpg?w=1280&h=720'></img><h2 style={{textAlign:"center"}}>protects your from offroad and  Connects you worldwide.</h2></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >COMFORT</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >comfort access system that allows you to open the car door and start the engine without<br></br> having to touch the key. All you have to do is have the key somewhere on you (or near you.)</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_2022786683.component.damq2.3270483787190.jpg/Finance%20and%20Insurance%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Reimagine Instant Ownership.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_830192075.component.damq2.3270483735724.jpg/Mercedes%20me%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Experience what your Mercedes can really do - with Mercedes me.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_2135898001.component.damq2.3270483823938.jpg/Pre-Owned%20cars%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Find your dream car with Mercedes-Benz pre-owned cars.</h2></div>
   
 </div>
 <img style={{ width:"1505px", height:"750px",objectFit:"cover"}} src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-7-5-bb-cullinan/page-properties/rrmc-black-badge-cullinan-hero-d.jpg/jcr:content/renditions/cq5dam.web.1920.webp'></img>

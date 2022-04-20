@@ -3,7 +3,7 @@ export function Header4() {
     <div>
       <div className='headerBlock4'>
       <div className='headerBlock__info'>
-        <div className='headerBlock__infoText'>
+        <div className='headerBlock__infoText3'>
           <h1>JAGUAR</h1>
           <h4>
             Order Online for <span>Touchless Delivery</span>

@@ -129,7 +129,7 @@ export function RollRoyce() {
 <div className='fog' >
   <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><h2 style={{textAlign:"center"}}>It's more than Heritage meets modernity. It's a ROLLSROYCE.</h2></div>
   <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><h2 style={{textAlign:"center"}}>a glass holder can be securely fixed to the cup-holders.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella offers excellent protection from inclement weather.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella .</h2></div>
   
 </div>
 <div className='hover1'>
@@ -159,7 +159,7 @@ export function RollRoyce() {
               
               </div>
               {east ? <iframe width="100%" height="701" src="https://www.youtube.com/embed/_JP0fl3S1uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-          <img src="https://www.motortrend.com/uploads/sites/5/2020/08/2021_Rolls-Royce_Ghost-3.jpg"></img>
+          <img  style={{ width:"1505px", height:"750px",objectFit:"cover"}} src="https://cdn.wallpapersafari.com/2/83/Qe7wco.jpg"></img>
       </div>
  
   );

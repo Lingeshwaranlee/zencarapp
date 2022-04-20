@@ -167,9 +167,9 @@ export function Tata() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/signature-lef-tail-lamps.jpg'></img><h2 style={{textAlign:"center"}}>Bold Led Tail Lamps.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://cars.tatamotors.com/images/punch/features/16-diamond-cut-alloy-wheels.jpg'></img><h2 style={{textAlign:"center"}}>R16 diamond alloy wheels</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/eye-catching-dashboard.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2></div>
   
 </div>
 <div className='hover1'>

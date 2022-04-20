@@ -107,7 +107,7 @@ export function Tesla() {
 <div className='fog' >
   <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://i.insider.com/60f860760729770012b91c62?width=700'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Tesla.</h2></div>
   <div><img style={{width:"400px",height:'280px',objectFit:"cover"}}  src='https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/1_4bce9de4-7beb-4f2f-a652-0943acff931e_1200x.jpg?v=1643994538'></img><h2 style={{textAlign:"center"}}>Dark eye in the hustle .</h2></div>
-  <div><img style={{width:"400px"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
   
 </div>
 <div className='hover1'>

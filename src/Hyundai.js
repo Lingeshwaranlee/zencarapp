@@ -95,7 +95,7 @@ export function Hyundai() {
     {
       "id": "120",
       "name": "HYUNDAI Palisade",
-      "poster": "https://images.hgmsites.net/hug/hyundai-palisade_100800712_h.jpg",
+      "poster": "https://images.caricos.com/h/hyundai/2020_hyundai_palisade/images/2560x1440/2020_hyundai_palisade_13_2560x1440.jpg",
       "varients":["Base= 40 Lakhs","Middle= 56 Lakhs","Top= 60 Lakhs"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Diesel",
@@ -106,7 +106,7 @@ export function Hyundai() {
     {
       "id": "121",
       "name": "HYUNDAI Venue",
-      "poster": "https://sparepartsnepal.com/wp-content/uploads/2020/08/Hyundai-Venue-Spare-Parts-Price-in-Nepal.png",
+      "poster": "https://images.firstpost.com/wp-content/uploads/2019/04/Large-36140-2020Venue-4.jpg",
       "varients":["Base= 11.87 Lakh","Middle= 19 Lakhs","Top= 28 Lakhs"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Diesel/Petrol",
@@ -146,9 +146,9 @@ export function Hyundai() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/medium/kona_electric_exterior_f7.jpg?h=500&w=600&la=en&hash=4905348385BCD01E9ECC4D249E8D4A7FC3763C11'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Hyundai kona.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
   
 </div>
 <div className='hover1'>
@@ -159,7 +159,7 @@ export function Hyundai() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://im.indiatimes.in/amp/2019/May/hyundai_cars_hyundai_electric_cars_hyundai_smart_cars_hyundai_motors_india_hyundai_smart_mobilit_1557393935.jpg'></img></div>
 </div>
 <div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://english.cdn.zeenews.com/sites/default/files/2019/07/09/802209-konafront.jpg'></img></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>Hyundai Kona EV </h1>
   <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.</h4></div>
@@ -207,7 +207,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
   return (
     <div  className='tesla'>
       <div>
-       <img src={poster} alt={"profile"}  className='tesla-poster'></img>
+       <img  src={poster} alt={"profile"}  className='tesla-poster'></img>
       <h2 className='styles'>{name}
       <IconButton 
       color="primary" 
