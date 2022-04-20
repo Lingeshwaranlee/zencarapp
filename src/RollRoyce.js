@@ -23,7 +23,7 @@ export function RollRoyce() {
     {
       "id": "134",
       "name": "ROLLS-ROYCE GHOST",
-      "poster": "https://www.wallpaperup.com/uploads/wallpapers/2017/10/23/1129940/de7f2008221d92f2f63ecfa1037e4675-700.jpg",
+      "poster": "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-8-2-commission/component-assets/inspired-specs/rolls-royce-ghost-extended-commission-inspired-specs-offgrid-aura.jpg/jcr:content/renditions/cq5dam.web.1920.webp",
       "varients":["Base= 7.9-crores","Middle=9-crores","Top= 11-crores"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
@@ -48,7 +48,7 @@ export function RollRoyce() {
       "id": "136",
       "name": "ROLLS-ROYCE  CULLINAN",
       "poster": "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/D_COLLECTION_OFFGRID_CAROUSEL_LSWRAITH.jpg/jcr:content/renditions/cq5dam.web.1920.webp",
-      "varients":["Base= 6.9-crores","Middle=9.4-crores","Top= 12-crores"],
+      "varients":["Base= 9.9-crores","Middle=15.4-crores","Top= 22-crores"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol",
        "speed": "155 miles per hour",
@@ -81,6 +81,18 @@ export function RollRoyce() {
       "mileage": "9.8 kmpl",
       "seat":"5",
     },
+    {
+      "id": "139",
+      "name": "ROLLS-ROYCE SPECTRE",
+      "poster": "https://back.3blmedia.com/sites/default/files/styles/ratio_3_2/public/triplepundit/wide/Rolls-Royce%20EV.jpg?h=9f125b1c",
+      "varients":["Base= 10.9-crores","Middle=29.4-crores","Top= 42-crores"],
+      "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
+      "type": "Electric",
+      "price": "7.85 Crore",
+      "speed": "155 miles per hour",
+      "mileage": "9.8 kmpl",
+      "seat":"5",
+    },
    
   ];
   
@@ -101,16 +113,49 @@ export function RollRoyce() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-7-5-bb-cullinan/components/rolls-royce-black-badge-cullinan_product-page-distictive-in-design-bg-d.jpg/jcr:content/renditions/cq5dam.web.828.webp'></img></div>
+  <div style={{ background:  "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>DISTINCTIVE IN DESIGN</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to TESLA than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><h2 style={{textAlign:"center"}}>It's more than Heritage meets modernity. It's a ROLLSROYCE.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><h2 style={{textAlign:"center"}}>a glass holder can be securely fixed to the cup-holders.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella offers excellent protection from inclement weather.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>SATELLITE-AIDED TRANSMISSION</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global  positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.satellitetoday.com/wp-content/uploads/2017/07/04-swb_lights-jpg-rr-1366-med.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://media.wired.co.uk/photos/606da4b6581351b2c44d7c98/16:9/w_2560%2Cc_limit/RR11_FRONT_DARK_02.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>NIGHT VISION</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.</h4></div>
+  </div>
+</div>
     <div className="joy">
     <h1>About RollRoyce:</h1>
       <h2 className="tes1">RollRoyce’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">Rolls-Royce Holdings plc is a British multinational aerospace and defence company
+      <h3 className="tes"style={{lineHeight:"30px"}}>Rolls-Royce Holdings plc is a British multinational aerospace and defence company
          incorporated in February 2011. The company owns Rolls-Royce, a business established 
          in 1904 which today designs, manufactures and distributes power systems for aviation
           and other industries</h3>
             </div>
             <div className="folks">
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>
               
               </div>
               {east ? <iframe width="100%" height="701" src="https://www.youtube.com/embed/_JP0fl3S1uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -158,16 +203,16 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button   onClick={handleOpen}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs  <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
+    
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

@@ -79,6 +79,17 @@ export function Jaguar() {
       "speed": "250 kmph",
       "mileage": "(10.9 to 15.3 Km/l)",
       "seat": "2"
+    },{
+      "id": "143",
+      "name": "The Land Rover Defender",
+      "poster": "https://www.wallpaperup.com/uploads/wallpapers/2019/11/20/1356577/6db17eba071afc884f4c1039c05e39a6-700.jpg",
+      "varients":["Base=2.61 crore","Middle= 4-crores","Top= 8.2-crores"],
+      "color":["White","Black","Red","Blue","Brown"],
+      "type": "Petrol",
+      "price": "2.61 crore",
+      "speed": "250 kmph",
+      "mileage": "(10.9 to 15.3 Km/l)",
+      "seat": "2"
     }
   ];
   const[east,seteast]=useState(false);
@@ -99,6 +110,41 @@ export function Jaguar() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://blogmedia.dealerfire.com/wp-content/uploads/sites/380/2021/04/2021-Jaguar-XF-steering-wheel-and-center-console_o.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+  <h1> TECHNOLOGY</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >With Jaguar’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.</h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Jaguar than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>THE NEW RANGE ROVER</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Is Land Rover coming out with a new Range Rover?
+THE NEW RANGE ROVER – 50 YEARS IN THE MAKING The fifth-generation Range Rover makes its debut for 2022 in standard – or long-wheelbase form in SE, Autobiography, or First Edition trim. The new Range Rover is a combination of breathtaking modern designs, peerless refinement, and unmatched capability.</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cdn.motor1.com/images/mgl/rPeMX/s1/range-rover-evoque-autobiography-2021-in-grau-dreiviertelansicht-von-schrag-vorne.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://s3-prod-europe.autonews.com/s3fs-public/ANE_160919894_AR_-1_PNGCZPZMNHNW.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>PERFORMANCE </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.Enjoy greater efficiencies along with Jaguar performance. As well as a range of efficient petrol engines, XF features a diesel range that is enhanced by mild hybrid technology; a smart regenerative system that charges during deceleration and braking.</h4></div>
+  
+</div>
+</div>
     <div className="joy">
     <h1>About Jaguar:</h1>
           <h2 className="tes1">Jaguar’s mission is to accelerate the world’s transition to sustainable energy.</h2>
@@ -113,7 +159,7 @@ export function Jaguar() {
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/bO08STHIhgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-        <img src="https://assets-eu-01.kc-usercontent.com/bb5aba31-d98c-0160-8548-418b3723c58e/40c263fc-b4c2-4a59-a6fe-d3c361b26c19/Jaguar%20F-Pace%20(6).jpeg"></img>
+        <img style={{ width:"1505px", height:"750px",objectFit:"cover"}} src="https://assets-eu-01.kc-usercontent.com/bb5aba31-d98c-0160-8548-418b3723c58e/40c263fc-b4c2-4a59-a6fe-d3c361b26c19/Jaguar%20F-Pace%20(6).jpeg"></img>
       </div>
  
   );
@@ -157,16 +203,15 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

@@ -112,22 +112,56 @@ export function Bmw() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src= "https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Design.jpg.grp-transform/xxlarge/Innovationen_Design.jpg"></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>DESIGN</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Creating innovative experiences, aesthetic appeal and elegance or providing visual clues are just some of the areas where design contributes to innovation. This not only creates an unmistakeable look, but also reflects the company’s pioneering role.</h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes" style={{lineHeight:"30px"}} >As a world-class marque, there is more to Bayerische Motoren Werke Aktiengesellschaft than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/IXseries/Homepage_Banner_1680x756_03.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1639379272336.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a BMW.</h2></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/Topics/Excellence%20Club%20app.jpg/jcr:content/renditions/cq5dam.resized.img.890.medium.time1596105395768.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need connectivity.</h2></div>
+  <div><img style={{width:"400px"}} src='https://drop.ndtv.com/albums/AUTO/2019-bmw-3-series/4.jpg'></img><h2 style={{textAlign:"center"}}>Sound which has  unique frequency which is going to blast.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>TURBO ENGINE TECHNOLOGY</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >BMW TwinPower Turbo diesel engines deliver a spirited response,impressive fuel economy and low emissions. All diesel engines boast the following BMW innovations: progressive turbocharger technology, variable turbine geometry and common-rail direct injection.</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.northernbm.com.au/wp-content/uploads/2021/02/bmw-engine-wallpaper-bmw-cars_00429885.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Effizienz_Elektromobilitaet.jpg.grp-transform/xxlarge/Innovationen_Effizienz_Elektromobilitaet.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>EFFICIENY AND ELECTRO-MOBILITY.</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Sustainability has defined the thinking and actions of the BMW Group since the early 1970s. Since then, the company has optimised countless production processes and developed innovative technologies. Key topics are efficiency and electro-mobility.</h4></div>
+  
+</div>
+    </div>
     <div className="joy">
      
     <h1>About Bmw:</h1>
       <h2 className="tes1">BMW’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">Mercedes-Benz makes perhaps the most advanced, luxurious, and
+      <h3 className="tes" style={{lineHeight:"30px"}}>BMW makes perhaps the most advanced, luxurious, and
          performance-oriented automobiles on the planet, and that status 
          is not a fluke. They've been pumping out innovative and technologically
           groundbreaking vehicles since Karl Benz introduced what's considered the 
           first petrol-powered car in 1886</h3>
             </div>
             <div className="folks">
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/BMRseEVaO-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-          <img src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/X4/2021/1680x756_W_o_Text.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1645528673885.jpg"></img>
+          <img style={{ width:"1505px", height:"750px",objectFit:"cover"}} src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/X4/2021/1680x756_W_o_Text.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1645528673885.jpg"></img>
       </div>
  
   );
@@ -171,16 +205,16 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs   <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
+     
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

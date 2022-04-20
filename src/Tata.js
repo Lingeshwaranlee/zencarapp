@@ -141,7 +141,7 @@ export function Tata() {
     <div>
     <div className='header1'>
   <div className='header__logo1'>
-    <img className='header__logoImgq' src="https://1000logos.net/wp-content/uploads/2020/03/Tata-Logo.jpg"></img>
+    <img  className='header__logoImgq' src="https://1000logos.net/wp-content/uploads/2020/03/Tata-Logo.jpg"></img>
   
   </div>
   </div>
@@ -153,6 +153,40 @@ export function Tata() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.drivespark.com/img/2020/06/tata-nexon-ira-advanced-connected-technology1-1591446088.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>NEX LEVEL TECHNOLOGY</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Presenting iRA – a cool new connected tech platform that is in sync with India. It offers a range of innovative features that are especially developed keeping in mind the needs of the India car buyer <ul><li>Panic Notification</li><li>Find my car</li><li>Emergency SMS</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li><li>Remote Immobilisation</li></ul></h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Tata than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>SAFETY</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. It needs to Drive New Forever.</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/nexon/key-feature-05-new.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2016/07/0029.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>DEFENCE</h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.</h4></div>
+  
+</div>
+</div>
     <div className="joy">
     <h1>About Tata:</h1>
       <h2 className="tes1">TATA’s mission is to accelerate the world’s transition to sustainable energy.</h2>
@@ -162,12 +196,12 @@ export function Tata() {
            industrial groups in India.</h3>
             </div>
             <div className="folks">
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/Rag287hQj28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  :""}
             
-                 <img src="https://cars.tatamotors.com/images/kaziranga/harrier-kaziranga-desktop-banner-1.png"></img>
+                 <img  src="https://cars.tatamotors.com/images/kaziranga/harrier-kaziranga-desktop-banner-1.png"></img>
       </div>
  
   );
@@ -211,16 +245,15 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

@@ -109,17 +109,51 @@ export function Benz() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.popsci.com/uploads/2022/04/01/stellantis.jpeg?auto=webp'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>ELECTRIFIED V8 BITURBO GASOLINE ENGINE</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Mercedes-Benz added an electrified V8 Biturbo gasoline engine with a 48-volt on-board electrical system and generator to its GLE and GLS models. This new configuration produces 483 horsepower and 516 pound-feet of torque.</h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Benz than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>Interior of the Future</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Benz effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/eqc/design/line-details/interior/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide_8d19/image.MQ6.12.20200703092501.jpeg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://electrek.co/wp-content/uploads/sites/3/2022/01/Mercedes-EQXX-Rear.jpg?quality=82&strip=all&w=1600'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>Vision EQXX </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.</h4></div>
+  
+</div>
+</div>
     <div className="joy">
     <h1>About Benz:</h1>
       <h2 className="tes1">Benz’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">BENZ serves purely as a status symbol for some, while for others 
+      <h3 className="tes"style={{lineHeight:"30px"}}>BENZ serves purely as a status symbol for some, while for others 
         it's a belief in the mantra “The Ultimate Driving Machine” and philosophy 
         of high revving engines. With that in mind, some are not only attracted to the
-         BMW brand just because they produce great cars, but also because of their way of doing things..</h3>
+         Benz brand just because they produce great cars, but also because of their way of doing things..</h3>
             </div>
             <div className="folks">
            
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>
 
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/csAXruiBLTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -169,16 +203,16 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
+      
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

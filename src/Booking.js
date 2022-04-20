@@ -21,15 +21,14 @@ export function Booking() {
 </IconButton></h4>
       </div>
       
-      <div className='button' >
+      <div className='button' style={{marginLeft:"380px"}} >
       <a href='https://pay.google.com/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>GOOGLE-PAY</a>
       <a href='https://paytm.com/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>PAYTM</a>
       <a href='https://razorpay.com/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>RAZOR-PAY</a>
       <a href='https://www.paypal.com/in/home' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>PAYPAL</a>
-      <a href='https://cred.club/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>CRED</a>
+      
       <a href='https://www.phonepe.com/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>PHONEPE</a>
-      <a href='https://bharatpe.com/' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>BHARTH-PAY</a>
-      <a href='https://www.amazon.in/amazonpay/home' target="_blank" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",padding:"20px","text-decoration" : "none","borderRadius":"10px"}}>AMAZON-PAY</a>
+     
      
       </div>
       </div>

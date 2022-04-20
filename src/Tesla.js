@@ -89,10 +89,46 @@ export function Tesla() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.carscoops.com/wp-content/uploads/2021/01/Tesla-Model-S-round-wheel-01-1024x550.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>Interior of the Future</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  
+</div>
+
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to TESLA than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://i.insider.com/60f860760729770012b91c62?width=700'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Tesla.</h2></div>
+  <div><img style={{width:"400px",height:'280px',objectFit:"cover"}}  src='https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/1_4bce9de4-7beb-4f2f-a652-0943acff931e_1200x.jpg?v=1643994538'></img><h2 style={{textAlign:"center"}}>Dark eye in the hustle .</h2></div>
+  <div><img style={{width:"400px"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>AUTOPILOT MODE</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://images.hgmsites.net/hug/tesla-autopilot-suite-of-features--with-version-7-0-update_100530452_h.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/ab165f41-fa4e-4abe-b82a-51bdc295cf42/bvlatuR/std/1040x584/MS-Interior-Grid-D-Desktop'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>Room for Everything</h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>With front and rear trunks and fold-flat seats you can fit your bike  without taking the wheel off—and your luggage too.A 22-speaker, 960- watt audio system with Active Road Noise Reduction offers immersive  listening and studio-grade sound quality.</h4></div>
+  
+</div>
+</div>
     <div className="joy">
       <h1>About Tesla:</h1>
       <h2 className="tes1">Tesla’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">Tesla was founded in 2003 by a group of engineers who wanted to
+      <h3 className="tes"style={{lineHeight:"30px"}}>Tesla was founded in 2003 by a group of engineers who wanted to
          prove that people didn’t need to compromise to drive electric 
          – that electric vehicles can be better, quicker and more fun to
           drive than gasoline cars. Today, Tesla builds not only all-electric 
@@ -101,7 +137,7 @@ export function Tesla() {
             a zero-emission future, the better.</h3>
             </div>
             <div className="folks">
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px",padding:"5px"}} >PREVIEW-🎬</Button>
               
               </div>
               {east ?  <iframe width="100%" height="720" src="https://www.youtube.com/embed/jWreyC2l-dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
@@ -150,16 +186,17 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+     <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
+      
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
+
 </div> :""}
        
        

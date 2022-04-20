@@ -69,8 +69,8 @@ export function Hyundai() {
     },
     {
       "id": "118",
-      "name": "HYUNDAI Casper",
-      "poster": "https://stimg.cardekho.com/images/car-images/930x620/Hyundai/Hyundai-Casper/8573/1630559299958/front-left-side-47.jpg?tr=w-420",
+      "name": "HYUNDAI i20",
+      "poster": "https://cdni.autocarindia.com/ExtraImages/20200930123556_Hyundai-i20-N-Line-front-1.jpg",
       "varients":["Base= 6 Lakhs","Middle= 9 Lakhs","Top= 11-Lakhs"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Petrol",
@@ -132,6 +132,40 @@ export function Hyundai() {
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
     </div>
+    <div style={{marginTop:"50px"}}>
+    <div className='hover'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.popsci.com/uploads/2022/04/01/stellantis.jpeg?auto=webp'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1> ENGINE & PERFORMANCE</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >With Hyundai’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.<ul><li>Fuel efficiency</li><li>high torque</li><li>maximum speed</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li></ul></h4></div>
+  
+</div>
+<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 >EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Hyundai than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>ADVENT OF SMART CARS</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard shoulder in emergency situations.</h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://im.indiatimes.in/amp/2019/May/hyundai_cars_hyundai_electric_cars_hyundai_smart_cars_hyundai_motors_india_hyundai_smart_mobilit_1557393935.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://english.cdn.zeenews.com/sites/default/files/2019/07/09/802209-konafront.jpg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1>Hyundai Kona EV </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.</h4></div>
+  
+</div>
+</div>
     <div className="joy">
     <h1>About Hyundai:</h1>
       <h2 className="tes1">HYUNDAI’s mission is to accelerate the world’s transition to sustainable energy.</h2>
@@ -140,11 +174,11 @@ export function Hyundai() {
          headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.</h3>
             </div>
             <div className="folks">
-            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-<RemoveRedEyeIcon/></Button>
+            <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>
               
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/N3tH_3A1000" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-               <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Creta/Highlights/pc/march/Hyundai_CRETA_SUV_MainKV_PC_1860x540.jpg"></img>
+               <img  src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Creta/Highlights/pc/march/Hyundai_CRETA_SUV_MainKV_PC_1860x540.jpg"></img>
       </div>
  
   );
@@ -188,16 +222,16 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       </h2>
       </div>
       {show?  <div className="customize">
-     <h2> Specs  <IconButton 
+      <Button onClick={handleOpen} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",margin:"10px",paddingLeft:"10px",paddingRight:"10px"}}>Specs  <IconButton 
       
       color="primary" 
       aria-label="add to shopping cart"
-      style={{ color:"rgb(41, 39, 39)"}}
-      onClick={handleOpen}
+      style={{ color:"rgb(185, 183, 183)"}}
+      
       >
      <DashboardCustomizeIcon />
 </IconButton>
-</h2>
+</Button> 
 </div> :""}
        
        

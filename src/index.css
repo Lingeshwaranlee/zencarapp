@@ -2,12 +2,45 @@ body{
   background-color: rgb(236, 231, 231);
   
 }
+.op{
+  text-align: center;
+  
+}
+.fog{
+  display: flex;
+  gap:40px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hover{
+  display: flex;
+}
+
+.hover1{
+  display: flex;
+  margin-top: 20px;
+}
+.hover2{
+  display: flex;
+  margin-top: 20px;
+}
 .you{
   color: rgba(14, 13, 13, 0.63);
   padding-top: 650px;
   text-align: center;
-  
+padding-left: 30px;
 }
+.as{
+  padding-right: 100px;
+}
+.customize{
+  background-color: rgb(236, 231, 231);
+}
+.button{
+  margin-left: 500px;
+}
+
 .gh{
   color: rgba(240, 234, 234, 0.63);
   padding-top: 70px;
@@ -16,7 +49,9 @@ body{
 .styles{
   text-align: center;
   background-image: linear-gradient(to bottom right,rgb(211, 201, 201),rgb(46, 44, 44));
+  margin:0px;
 }
+
 
 .nj{
   width:100%;
@@ -34,12 +69,7 @@ body{
   padding: 5px;
   font-family: 'Times New Roman', Times, serif;
 }
-.pic{
-  background-image: url("https://imgd.aeplcdn.com/0X0/n/cw/ec/49765/rollsroyce-phantom-viii-left-front-three-quarter0.jpeg?q=75");
-position: relative;
-object-fit: cover;
 
-}
 .qw{
   width:100%;
   margin:20px;
@@ -47,7 +77,7 @@ object-fit: cover;
 
 .brand-list{
   display: flex;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-left: 20px;
@@ -77,6 +107,15 @@ object-fit: cover;
   font-size: 18px;
   padding: 25px;
   
+
+}
+.test{
+
+  color: #393c41;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 25px;
+ padding-right: 50px;
 
 }
 .tes2{
@@ -115,10 +154,10 @@ object-fit: cover;
 
 .tesla-list{
   display: flex;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-left: 20px;
+  
 }
 .world{
   text-align: center;
@@ -149,10 +188,10 @@ object-fit: cover;
 }
 .bmw-list{
   display: flex;
-  gap: 50px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: space-around;
- 
+
 }
 .benz-poster{
   width: 650px;
@@ -245,7 +284,7 @@ object-fit: cover;
   width: 205px;
   height: 55px;
   background-color: rgb(180, 175, 175);
-  border-radius: 12px;
+  border-radius: 10px;
 }
 .btn{
   background-color:  rgb(180, 175, 175) !important;
@@ -309,7 +348,7 @@ object-fit: cover;
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 }
 .hug{
-  margin-left: 630px !important;
+  margin-left: 635px !important;
   align-items: center;
   gap: 15px;
 }
@@ -503,7 +542,6 @@ padding-right: 3px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
   top: 0;
   right: 0;
   bottom: 0;
@@ -702,6 +740,7 @@ padding-right: 3px;
   font-size: 38px;
 }
 
+
 .headerBlock__infoText2 > h4 {
   font-weight: 400;
   font-size: 15px;
@@ -726,3 +765,4 @@ padding-right: 3px;
   text-align: center;
   flex: 1;
 }
+
