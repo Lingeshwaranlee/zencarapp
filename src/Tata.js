@@ -57,7 +57,7 @@ export function Tata() {
     {
       "id": "107",
       "name": "TATA  Tiago",
-      "poster": "https://www.carbikeindia.com/wp-content/uploads/2021/08/Tata-Tiago-NRG-Launch-in-India.jpg",
+      "poster": "https://cars.tatamotors.com/images/tiago/features/performance/dynamic-performance-01.jpg",
       "varients":["Base= 7.70 Lakh","Middle= 9.70 Lakh","Top= 13.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
        "type": "Diesel/Petrol",
@@ -79,7 +79,7 @@ export function Tata() {
     {
       "id": "109",
       "name": "TATA Tigor",
-      "poster": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tata-Tigor/6639/front-right-view-120.jpg",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Tigor/7339/1579858414566/front-left-side-47.jpg",
       "varients":["Base= 8.70 Lakh","Middle= 11.70 Lakh","Top= 15.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Petrol/CNG",
@@ -126,7 +126,7 @@ export function Tata() {
     {
       "id": "113",
       "name": "TATA Tigor EV",
-      "poster": "https://c.ndtvimg.com/2021-08/lfh1n2po_tata-tigor-ev_625x300_25_August_21.jpg",
+      "poster": "https://tigorev.tatamotors.com/wp-content/themes/limberev/images/budget-happy.jpg",
       "varients":["Base=13.14 Lakh","Middle= 16.14 Lakh","Top= 18.18 Lakh"],
       "color":["White","Black","Red","Blue","Brown","yellow","green","orange","aqua"],
       "type": "Electric",
@@ -155,10 +155,10 @@ export function Tata() {
     </div>
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.drivespark.com/img/2020/06/tata-nexon-ira-advanced-connected-technology1-1591446088.jpg'></img></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/nexon/key-feature-05-new.jpg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>NEX LEVEL TECHNOLOGY</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Presenting iRA – a cool new connected tech platform that is in sync with India. It offers a range of innovative features that are especially developed keeping in mind the needs of the India car buyer <ul><li>Panic Notification</li><li>Find my car</li><li>Emergency SMS</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li><li>Remote Immobilisation</li></ul></h4></div>
+     <h1>SAFETY</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. It needs to Drive New Forever.</h4></div>
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
@@ -175,9 +175,9 @@ export function Tata() {
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>SAFETY</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. It needs to Drive New Forever.</h4></div>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/nexon/key-feature-05-new.jpg'></img></div>
+     <h1>NEXT LEVEL TECHNOLOGY</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Presenting iRA – a cool new connected tech platform that is in sync with India. It offers a range of innovative features that are especially developed keeping in mind the needs of the India car buyer <ul><li>Panic Notification</li><li>Find my car</li><li>Emergency SMS</li><li>Stolen vehicle tracking</li><li>Remote Immobilisation</li></ul></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.drivespark.com/img/2020/06/tata-nexon-ira-advanced-connected-technology1-1591446088.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2016/07/0029.jpg'></img></div>

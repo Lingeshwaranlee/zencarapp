@@ -58,7 +58,7 @@ export function Benz() {
     {
       "id": "131",
       "name": "Mercedes-Benz EQE",
-      "poster": "https://imgd.aeplcdn.com/1200x900/n/cw/ec/108113/exterior-left-front-three-quarter.jpeg?isig=0&q=75",
+      "poster": "https://www.mbusa.com/content/dam/mb-nafta/us/future-vehicles/my23/eqe/gallery/full/2023-EQE-FMG-003-WP.jpg",
       "varients":["Base=70 lakhs","Middle=1.75 crore","Top=3.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Electrical",

@@ -35,7 +35,7 @@ export function Bmw() {
     {
       "id": "123",
       "name": "BMW  X6",
-      "poster": "https://gumlet.assettype.com/evoindia%2F2020-07%2F4fcf8dbf-09fc-429b-83cb-e751c3b3c60b%2FP90373801_highRes_the_new_bmw_x6_m50i_.jpg?rect=0%2C138%2C2048%2C1152&auto=format%2Ccompress&fit=max&format=webp&w=480&dpr=2.6",
+      "poster": "https://ymimg1.b8cdn.com/uploads/article/6769/pictures/5332209/BMW-X6_M50i-2020-1280-03.jpg",
       "varients":["Base= 1.2 crore","Middle= 3.2 crore","Top= 4-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "petrol engine",
@@ -47,7 +47,7 @@ export function Bmw() {
     {
       "id": "124",
       "name": "BMW X3",
-      "poster": "https://www.financialexpress.com/wp-content/uploads/2022/01/BMW-X3-Facelift-3.jpg",
+      "poster": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X3/8712/1645085033461/front-left-side-47.jpg",
       "varients":["Base= 70.75 Lakhs","Middle= 85-Lakhs","Top= 1.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": " petrol/diesel engine",
@@ -58,7 +58,7 @@ export function Bmw() {
     {
       "id": "125",
       "name": "BMW X4",
-      "poster": "https://www.financialexpress.com/wp-content/uploads/2022/02/new-bmw-x4-m40i-facelift.jpg",
+      "poster": "https://s1.cdn.autoevolution.com/images/news/2019-bmw-x4-m-rendered-in-black-debut-imminent-129691_1.jpg",
       "varients":["Base= 70.75 Lakhs","Middle= 85-Lakhs","Top= 1.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "petrol/diesel engine",
@@ -83,7 +83,7 @@ export function Bmw() {
     {
       "id": "127",
       "name": "BMW X1",
-      "poster": "https://images.hgmsites.net/lrg/2022-bmw-x1_100821675_l.jpg",
+      "poster": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/18q1/699327/2018-bmw-x2-xdrive28i-test-review-car-and-driver-photo-705233-s-original.jpg",
       "varients":["Base= 40 Lakhs","Middle=70 Lakhs","Top=2.7 crore"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "petrol/diesel engine",
