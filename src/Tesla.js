@@ -16,7 +16,11 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header } from "./Header";
 import { useHistory } from 'react-router-dom';
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
 
 export function Tesla() {
   const cars= [
@@ -105,9 +109,9 @@ export function Tesla() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://i.insider.com/60f860760729770012b91c62?width=700'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Tesla.</h2></div>
-  <div><img style={{width:"400px",height:'280px',objectFit:"cover"}}  src='https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/1_4bce9de4-7beb-4f2f-a652-0943acff931e_1200x.jpg?v=1643994538'></img><h2 style={{textAlign:"center"}}>Dark eye in the hustle .</h2></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://i.insider.com/60f860760729770012b91c62?width=700'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Tesla.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
+  <div><img style={{width:"400px",height:'280px',objectFit:"cover"}}  src='https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/1_4bce9de4-7beb-4f2f-a652-0943acff931e_1200x.jpg?v=1643994538'></img><h2 style={{textAlign:"center"}}>Dark eye in the hustle .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><h2 style={{textAlign:"center"}}> Connects you worldwide.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
   
 </div>
 <div className='hover1'>
@@ -193,7 +197,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       style={{ color:"rgb(185, 183, 183)"}}
       
       >
-     <DashboardCustomizeIcon />
+     <DashboardCustomizeIcon  />
 </IconButton>
 </Button> 
 
@@ -215,14 +219,14 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
       <h2>color:</h2> 
       <select className='yaal'>
          {color.map(color=>{
-           return <option value={color}>{color}</option>
+           return <option  value={color}>{color}</option>
          })}
        </select> 
        </div>  :""}
      </div>
       
       
-      {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+      {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/> <span></span>ADD TO CART</Button> :""}
      
       <Modal
   open={open}

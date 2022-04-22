@@ -13,12 +13,13 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import AddRoadIcon from '@mui/icons-material/AddRoad';
 import InventoryIcon from '@mui/icons-material/Inventory';
+import CloseIcon from '@mui/icons-material/Close';
 export function Menu() {
   
   const history =useHistory(); 
   return (
     <div className='menu'>
-     <div className="u1">CLOSE<IconButton color="primary" aria-label="add to shopping cart" onClick={() => history.push("/")} > <CancelPresentationIcon /></IconButton> </div>
+     <div className="u1" ><IconButton color="primary" aria-label="add to shopping cart" style={{color:"black"}} onClick={() => history.push("/")} > <CancelPresentationIcon /></IconButton> </div>
       <hr></hr>
      
       

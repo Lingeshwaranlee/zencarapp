@@ -127,9 +127,9 @@ export function RollRoyce() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><h2 style={{textAlign:"center"}}>It's more than Heritage meets modernity. It's a ROLLSROYCE.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><h2 style={{textAlign:"center"}}>a glass holder can be securely fixed to the cup-holders.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella .</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><h2 style={{textAlign:"center"}}>It's more than Heritage meets modernity. It's a ROLLSROYCE.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><h2 style={{textAlign:"center"}}>A Glass Holder can be securely fixed to the cup-holders.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
   
 </div>
 <div className='hover1'>

@@ -125,9 +125,9 @@ export function Jaguar() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cdn.carbuzz.com/gallery-images/2020-jaguar-xf-sedan-carbuzz-345330.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a JAGUAR.</h2></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://wallpapercave.com/wp/wp6014820.jpg'></img><h2 style={{textAlign:"center"}}>Defender xs 90's edition.</h2></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://images.caricos.com/l/land_rover/2020_land_rover_defender_90/images/2560x1440/2020_land_rover_defender_90_86_2560x1440.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cdn.carbuzz.com/gallery-images/2020-jaguar-xf-sedan-carbuzz-345330.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a JAGUAR.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore offers</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://wallpapercave.com/wp/wp6014820.jpg'></img><h2 style={{textAlign:"center"}}>Defender xs 90's edition.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">defence</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://images.caricos.com/l/land_rover/2020_land_rover_defender_90/images/2560x1440/2020_land_rover_defender_90_86_2560x1440.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
 </div>
 <div className='hover1'>
@@ -238,7 +238,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/>ADD TO CART</Button> :""}
       <Modal
   open={open}
   onClose={handleClose}

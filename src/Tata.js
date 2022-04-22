@@ -167,9 +167,9 @@ export function Tata() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/signature-lef-tail-lamps.jpg'></img><h2 style={{textAlign:"center"}}>Bold Led Tail Lamps.</h2></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://cars.tatamotors.com/images/punch/features/16-diamond-cut-alloy-wheels.jpg'></img><h2 style={{textAlign:"center"}}>R16 diamond alloy wheels</h2></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/eye-catching-dashboard.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/signature-lef-tail-lamps.jpg'></img><h2 style={{textAlign:"center"}}>Bold Led Tail Lamps.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">sparkling</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://cars.tatamotors.com/images/punch/features/16-diamond-cut-alloy-wheels.jpg'></img><h2 style={{textAlign:"center"}}>R16 diamond alloy wheels</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">High on wheels</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/eye-catching-dashboard.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">drive</Button></div>
   
 </div>
 <div className='hover1'>
@@ -279,7 +279,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/>ADD TO CART</Button> :""}
       <Modal
   open={open}
   onClose={handleClose}

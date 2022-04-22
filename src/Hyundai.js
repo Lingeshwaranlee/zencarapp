@@ -146,9 +146,9 @@ export function Hyundai() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/medium/kona_electric_exterior_f7.jpg?h=500&w=600&la=en&hash=4905348385BCD01E9ECC4D249E8D4A7FC3763C11'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Hyundai kona.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/medium/kona_electric_exterior_f7.jpg?h=500&w=600&la=en&hash=4905348385BCD01E9ECC4D249E8D4A7FC3763C11'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Hyundai kona.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">IT'S Kona</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">CONNECTS</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><h2 style={{textAlign:"center"}}>Rides very smooth</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Book Ride</Button></div>
   
 </div>
 <div className='hover1'>
@@ -257,7 +257,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/>ADD TO CART</Button> :""}
       <Modal
   open={open}
   onClose={handleClose}

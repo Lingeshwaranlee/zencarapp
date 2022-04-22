@@ -126,9 +126,9 @@ export function Bmw() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/IXseries/Homepage_Banner_1680x756_03.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1639379272336.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a BMW.</h2></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/Topics/Excellence%20Club%20app.jpg/jcr:content/renditions/cq5dam.resized.img.890.medium.time1596105395768.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need connectivity.</h2></div>
-  <div><img style={{width:"400px"}} src='https://drop.ndtv.com/albums/AUTO/2019-bmw-3-series/4.jpg'></img><h2 style={{textAlign:"center"}}>Sound which has  unique frequency which is going to blast.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/IXseries/Homepage_Banner_1680x756_03.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1639379272336.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a BMW.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore offers</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/Topics/Excellence%20Club%20app.jpg/jcr:content/renditions/cq5dam.resized.img.890.medium.time1596105395768.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need connectivity.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">connnects</Button></div>
+  <div><img style={{width:"400px"}} src='https://drop.ndtv.com/albums/AUTO/2019-bmw-3-series/4.jpg'></img><h2 style={{textAlign:"center"}}>Sound which has  unique frequency.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
 </div>
 <div className='hover1'>
@@ -240,7 +240,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""} 
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/>ADD TO CART</Button> :""} 
       <Modal
   open={open}
   onClose={handleClose}

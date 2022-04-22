@@ -123,9 +123,9 @@ export function Benz() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  Connects you worldwide.</h2></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore offers</Button></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
 </div>
 <div className='hover1'>
@@ -238,7 +238,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      </div>
       
       
-     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}>ADD TO CART<AddShoppingCartIcon/></Button> :""}
+     {show?   <Button variant="contained" className='bt' onClick={() => history.push("/book")} style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)"}}><AddShoppingCartIcon/>ADD TO CART</Button> :""}
       <Modal
   open={open}
   onClose={handleClose}
