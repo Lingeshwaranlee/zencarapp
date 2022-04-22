@@ -27,7 +27,7 @@ export function Tesla() {
     {
       "id": "100",
       "name": "TESLA-Model 3",
-      "poster": "https://i.insider.com/5a872a6cd030721b008b4727?width=1136&format=jpeg",
+      "poster": "https://tesla-cdn.thron.com/delivery/public/image/tesla/35861782-9705-4f73-84f0-86d615adb661/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD",
       "varients":["Base= 60-Lakhs","Middle= 80-Lakhs","Top= 1.2-crores"],
       "color":["White","Black","Red","Blue","Brown",],
       "type": "Electrical",
@@ -52,7 +52,7 @@ export function Tesla() {
     {
       "id": "102",
       "name": "TESLA-Model X",
-      "poster": "http://www.canadianreviewer.com/storage/post-images/Tesla%20Model%20X.jpg?__SQUARESPACE_CACHEVERSION=1581735853651",
+      "poster": "https://tesla-cdn.thron.com/delivery/public/image/tesla/5102fa27-0d41-4f79-b07b-7ffb1ceb55ff/bvlatuR/std/2880x1800/Model-X-Main-Hero-Desktop-LHD",
       "varients":["Base= 1.2-crores","Middle= 1.5-crores","Top= 2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       //"price": [{"Base":"1.2 crores","Middle":"1.5 crores","Top":"2 crores"}],
@@ -96,7 +96,7 @@ export function Tesla() {
     
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.carscoops.com/wp-content/uploads/2021/01/Tesla-Model-S-round-wheel-01-1024x550.jpg'></img></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/9a77958a-146d-40de-8a5f-0ba8af777fdf/bvlatuR/std/2560x1440/Model-3-Interior-Hero-Desktop-LHD'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>Interior of the Future</h1>
   <h4 className="test"style={{lineHeight:"30px"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
@@ -122,10 +122,10 @@ export function Tesla() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://images.hgmsites.net/hug/tesla-autopilot-suite-of-features--with-version-7-0-update_100530452_h.jpg'></img></div>
 </div>
 <div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/ab165f41-fa4e-4abe-b82a-51bdc295cf42/bvlatuR/std/1040x584/MS-Interior-Grid-D-Desktop'></img></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/b7e5f13a-e8f8-4428-b29e-b2ba6cf5220b/bvlatuR/std/1920x1080/MS-Safety-Hero-Desktop'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>Room for Everything</h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>With front and rear trunks and fold-flat seats you can fit your bike  without taking the wheel off—and your luggage too.A 22-speaker, 960- watt audio system with Active Road Noise Reduction offers immersive  listening and studio-grade sound quality.</h4></div>
+     <h1>High Impact Protection</h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost..</h4></div>
   
 </div>
 </div>
@@ -211,7 +211,7 @@ function CarData({name,poster,varients,color,type,speed,mileage,seat}) {
      <h2>varients:</h2>
        <select className='yaal'  >
          {varients.map(varients=>{
-           return <option>{varients}</option>
+           return <option style={{padding:"10px"}}>{varients}</option>
          })}
        </select>
        </div>  :""}

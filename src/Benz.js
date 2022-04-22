@@ -97,9 +97,7 @@ export function Benz() {
     <div>
       <div className='header3'>
   <div className='header__logo1'>
-  <img className='header__logoImgw' src="http://www.vonsung.com/wp-content/uploads/2020/04/mercedes-benz-logo-horizontal.png"></img>
-  <img  className='header__logoImg3' src='https://www.carlogos.org/logo/Mercedes-Benz-emblem-1926-1920x1080.png'
-            alt='profile' />
+  
   </div>
   </div>
       <Header3/>

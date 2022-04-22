@@ -141,7 +141,7 @@ export function Tata() {
     <div>
     <div className='header1'>
   <div className='header__logo1'>
-    <img  className='header__logoImgq' src="https://1000logos.net/wp-content/uploads/2020/03/Tata-Logo.jpg"></img>
+  
   
   </div>
   </div>

@@ -98,8 +98,7 @@ export function Jaguar() {
     <div>
      <div className='header4'>
   <div className='header__logo1'>
-  <img  className='header__logoImg4' src='https://1000marken.net/wp-content/uploads/2021/01/Jaguar-logo.png'
-            alt='profile' />
+  
            
   </div>
   </div>

@@ -390,7 +390,7 @@ margin-left: 600px;
   object-fit: cover;
   flex: 1;
   width: 180px;
- background-color: aliceblue !important;
+
 margin-left:620px;
 padding-left: 3px;
 padding-right: 3px;
@@ -541,7 +541,7 @@ padding-right: 3px;
   margin-top: 19px;
 }
 .headerBlock {
-  background: url('https://tesla.com/ns_videos/model-3-social.jpg') no-repeat
+  background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

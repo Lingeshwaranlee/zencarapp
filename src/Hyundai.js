@@ -121,7 +121,7 @@ export function Hyundai() {
     <div>
     <div className='header1'>
   <div className='header__logo1'>
-    <img className='header__logoImgq' src="https://www.koreatechtoday.com/wp-content/uploads/2020/01/hyundai-motor-group-logo.jpg"></img>
+   
   
   </div>
   </div>

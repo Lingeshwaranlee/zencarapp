@@ -53,7 +53,7 @@ function Home(){
    <div >
   
      <div className='kgf' >
-        <img style={{ width:"1505px", height:"750px",objectFit:"cover"}} src= "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/coachbuild/page-properties/rolls-royce-pagename-hero-d.jpg/jcr:content/renditions/original"></img>
+        <img style={{ width:"1505px", height:"750px",objectFit:"cover"}} src= "https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD"></img>
         </div>
        
 
@@ -72,7 +72,7 @@ function Home(){
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.6speedonline.com/wp-content/uploads/2016/08/Mercedes-AMG1.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/5d01e919-478d-425b-8b6a-36f7cc1e4420/bvlatuR/std/3949x2202/Model-S-Exterior-Grid-A-Desktop-Mobile-Global'></img><h2 style={{textAlign:"center"}}>Relentless Performance.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
   <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
   <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://www.topgear.com/sites/default/files/cars-car/image/2021/03/lr_def_90_x_p400_gondwana_stone_gaydon_281020_005.jpg?w=1280&h=720'></img><h2 style={{textAlign:"center"}}> Connects you worldwide.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
   
