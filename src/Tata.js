@@ -18,7 +18,7 @@ import { Header5 } from './Header5';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export function Tata() {
   const cars = [
     {
@@ -158,7 +158,13 @@ export function Tata() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/nexon/key-feature-05-new.jpg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>SAFETY</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. It needs to Drive New Forever.</h4></div>
+  <h4 className="test"style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Safety</h2></h4></div>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2022/01/press-19jan22-1-01.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://pbs.twimg.com/media/DUZgkVjVQAA-Lf-.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
@@ -167,11 +173,12 @@ export function Tata() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/signature-lef-tail-lamps.jpg'></img><h2 style={{textAlign:"center"}}>Bold Led Tail Lamps.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">sparkling</Button></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://cars.tatamotors.com/images/punch/features/16-diamond-cut-alloy-wheels.jpg'></img><h2 style={{textAlign:"center"}}>R16 diamond alloy wheels</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">High on wheels</Button></div>
-  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/eye-catching-dashboard.jpg'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">drive</Button></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/signature-lef-tail-lamps.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Bold Led Tail Lamps.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">sparkling</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://cars.tatamotors.com/images/punch/features/16-diamond-cut-alloy-wheels.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>R16 diamond alloy wheels</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">High on wheels</Button></div>
+  <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/punch/features/eye-catching-dashboard.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Eye Catching Dashboard.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">drive</Button></div>
   
 </div>
+<img className="ishu"  src="https://cars.tatamotors.com/images/dark/altroz-imaginator.jpg"></img>
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
@@ -183,7 +190,7 @@ export function Tata() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2016/07/0029.jpg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>DEFENCE</h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Defence</h2></h4></div>
   
 </div>
 </div>
@@ -201,7 +208,7 @@ export function Tata() {
               </div>
               {east ? <iframe width="100%" height="720" src="https://www.youtube.com/embed/Rag287hQj28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  :""}
             
-                 <img  src="https://cars.tatamotors.com/images/kaziranga/harrier-kaziranga-desktop-banner-1.png"></img>
+                 <img style={{ width:"1505px", height:"750px",objectFit:"cover"}}  src="https://cars.tatamotors.com/images/color/red.jpg"></img>
       </div>
  
   );

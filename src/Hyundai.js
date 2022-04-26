@@ -18,6 +18,7 @@ import { Header0 } from './Header0';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export function Hyundai() {
   const cars= [
@@ -140,29 +141,37 @@ export function Hyundai() {
   <h4 className="test"style={{lineHeight:"30px"}} >With Hyundai’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.<ul><li>Fuel efficiency</li><li>high torque</li><li>maximum speed</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li></ul></h4></div>
   
 </div>
+
+<div className='fog' >
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Highlights/mob/Hyundai-i20Nline-Highlight-middle-mob-tab-800x530-1.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Highlights/mob/Hyundai-i20Nline-Highlight-middle-mob-tab-800x530-8.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  
+  
+</div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
   <h1 >EXPERIENCE</h1>
   <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Hyundai than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/medium/kona_electric_exterior_f7.jpg?h=500&w=600&la=en&hash=4905348385BCD01E9ECC4D249E8D4A7FC3763C11'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Hyundai kona.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">IT'S Kona</Button></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><h2 style={{textAlign:"center"}}>Eye Catching Dashboard.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">CONNECTS</Button></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><h2 style={{textAlign:"center"}}>Rides very smooth</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Book Ride</Button></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/medium/kona_electric_exterior_f7.jpg?h=500&w=600&la=en&hash=4905348385BCD01E9ECC4D249E8D4A7FC3763C11'></img><p style={{textAlign:"center",fontSize:'18px'}}>It's more than electric. It's a Hyundai kona.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">IT'S Kona</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><p style={{textAlign:"center",fontSize:'18px'}}>Eye Catching Dashboard.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">CONNECTS</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><p style={{textAlign:"center",fontSize:'18px'}}>Rides very smooth</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Book Ride</Button></div>
   
 </div>
+<img className="ishu"  src="https://cars.tatamotors.com/images/dark/altroz-imaginator.jpg"></img>
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>ADVENT OF SMART CARS</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard shoulder in emergency situations.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Smart</h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://im.indiatimes.in/amp/2019/May/hyundai_cars_hyundai_electric_cars_hyundai_smart_cars_hyundai_motors_india_hyundai_smart_mobilit_1557393935.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>Hyundai Kona EV </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  EV</h2></h4></div>
   
 </div>
 </div>
@@ -171,7 +180,7 @@ export function Hyundai() {
       <h2 className="tes1">HYUNDAI’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes">Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
         known as Hyundai, is a South Korean multinational automotive manufacturer
-         headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.</h3>
+         headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.Hyundai believes the faster the world stops relying on fossil fuels and moves towards a zero-emission future, the better.</h3>
             </div>
             <div className="folks">
             <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>

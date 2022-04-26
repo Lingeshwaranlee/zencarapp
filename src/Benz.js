@@ -18,6 +18,8 @@ import { Header3 } from './Header3';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 export function Benz() {
   const cars = [
     {
@@ -58,7 +60,7 @@ export function Benz() {
     {
       "id": "131",
       "name": "Mercedes-Benz EQE",
-      "poster": "https://www.mbusa.com/content/dam/mb-nafta/us/future-vehicles/my23/eqe/gallery/full/2023-EQE-FMG-003-WP.jpg",
+      "poster": "https://w0.peakpx.com/wallpaper/404/674/HD-wallpaper-mercedes-benz-eqe-350-amg-line-edition-1-2022-3.jpg",
       "varients":["Base=70 lakhs","Middle=1.75 crore","Top=3.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "Electrical",
@@ -112,7 +114,13 @@ export function Benz() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.popsci.com/uploads/2022/04/01/stellantis.jpeg?auto=webp'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>ELECTRIFIED V8 BITURBO GASOLINE ENGINE</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Mercedes-Benz added an electrified V8 Biturbo gasoline engine with a 48-volt on-board electrical system and generator to its GLE and GLS models. This new configuration produces 483 horsepower and 516 pound-feet of torque.</h4></div>
+  <h4 className="test"style={{lineHeight:"30px"}} >Mercedes-Benz added an electrified V8 Biturbo gasoline engine with a 48-volt on-board electrical system and generator to its GLE and GLS models. This new configuration produces 483 horsepower and 516 pound-feet of torque.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Engine</h2></h4></div>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://s1.cdn.autoevolution.com/images/news/mercedes-benz-launches-c-klasse-coupe-more-style-per-hour-campaign-35330_1.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://www.mercedes-benz-mena.com/en/passengercars/jordan/jordan-offers/no-offers/_jcr_content/par/productinfotextimage_1328515920/media/slides/videoimageslide/image.MQ6.7.20200401120326.jpeg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
@@ -121,23 +129,24 @@ export function Benz() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><h2 style={{textAlign:"center"}}>It's more than electric. It's a Mercedes.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore offers</Button></div>
-  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><h2 style={{textAlign:"center"}}>Help when you need it.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
-  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><h2 style={{textAlign:"center"}}>Takes you to the most beautiful places  .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_1458819270.component.damq2.3283870811362.jpg/Final%20EQC%20Homepage%20Banner%20Mobile.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>It's more than electric. It's a Mercedes.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore offers</Button></div>
+  <div><img style={{width:"400px"}}  src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_464863480.component.damq2.3282591253392.jpg/WhatsApp%20Live%20Chat%20Mobile%20Banner.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Help when you need it.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px"}} src='https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_c_205597732.component.damq2.3292450215455.jpg/GLC%20banner_Mobile_1534x1151%20pixels-01.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Takes you to the most beautiful places  .</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
 </div>
+<img className="ishu1"  src="https://www.mercedes-benz.co.in/passengercars/content-pool/marketing-pool/product-page-stages/a-class-sedan-stage-v177-amg/_jcr_content/par/stageelementcampaign_585506700.MQ6.0.stage.20220420164351.jpeg"></img>
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>Interior of the Future</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Benz effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}} >Benz effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Dashboard</h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/eqc/design/line-details/interior/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide_8d19/image.MQ6.12.20200703092501.jpeg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://electrek.co/wp-content/uploads/sites/3/2022/01/Mercedes-EQXX-Rear.jpg?quality=82&strip=all&w=1600'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>Vision EQXX </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Vision</h2></h4></div>
   
 </div>
 </div>

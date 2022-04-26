@@ -17,6 +17,7 @@ import { Header1 } from "./Header1";
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export function RollRoyce() {
   const cars = [
@@ -118,7 +119,13 @@ export function RollRoyce() {
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-7-5-bb-cullinan/components/rolls-royce-black-badge-cullinan_product-page-distictive-in-design-bg-d.jpg/jcr:content/renditions/cq5dam.web.828.webp'></img></div>
   <div style={{ background:  "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>DISTINCTIVE IN DESIGN</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Design</h2></h4></div>
+  
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/coachbuild--boat-tail/page-properties/OJ_Coachbuild.png/jcr:content/renditions/cq5dam.web.1668.webp'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/rolls-royce-discover-bespoke-ghost-zenith.jpg/jcr:content/renditions/cq5dam.web.1668.webp'></img><h2 style={{textAlign:"center"}}></h2></div>
+  
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
@@ -127,23 +134,24 @@ export function RollRoyce() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><h2 style={{textAlign:"center"}}>It's more than Heritage meets modernity. It's a ROLLSROYCE.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><h2 style={{textAlign:"center"}}>A Glass Holder can be securely fixed to the cup-holders.</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
-  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><h2 style={{textAlign:"center"}}>With its classic design and superior quality, the Rolls-Royce umbrella .</h2><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div style={{paddingLeft:"100px"}}><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://cdn.lifestyleasia.com/wp-content/uploads/sites/7/2020/09/02191145/2021-rolls-royce-ghost-details.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>It's more than Heritage meets modernity.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/boutique/coolbox/component-assets/accessories-product-coolbox-carousel-curtained-interior.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>A Glass Holder can be securely fixed .</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
+  <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.thehogring.com/wp-content/uploads/2020/09/The-Hog-Ring-How-Much-the-Rolls-Royce-Umbrella-Costs.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>With its classic design and superior quality</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Chat Here</Button></div>
   
 </div>
+<img className="ishu1"  src="https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/rolls-royce-discover-bespoke-wraith-egale-viii.jpg/jcr:content/renditions/cq5dam.web.1668.webp"></img>
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>SATELLITE-AIDED TRANSMISSION</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global  positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)</h4></div>
+  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global  positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>(SAT)</h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.satellitetoday.com/wp-content/uploads/2017/07/04-swb_lights-jpg-rr-1366-med.jpg'></img></div>
 </div>
 <div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://media.wired.co.uk/photos/606da4b6581351b2c44d7c98/16:9/w_2560%2Cc_limit/RR11_FRONT_DARK_02.jpg'></img></div>
+  <div><img  style={{ width:"800px", height:"530px",objectFit:"cover"}} src='https://media.wired.co.uk/photos/606da4b6581351b2c44d7c98/16:9/w_2560%2Cc_limit/RR11_FRONT_DARK_02.jpg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1>NIGHT VISION</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.</h4></div>
+  <h4 className="test"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Vison</h2></h4></div>
   </div>
 </div>
     <div className="joy">

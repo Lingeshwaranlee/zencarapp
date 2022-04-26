@@ -14,9 +14,21 @@ body{
   margin-bottom: 20px;
   
   color: rgb(41, 39, 39);
-  font-weight: 500;
+  font-weight: 500PX;
   font-size: 13px;
   
+}
+
+
+.quike2{
+  color:white;
+  
+  background-image: linear-gradient(to right, orange,crimson);
+}
+.quike3{
+  color:white;
+  background-color: rgb(12, 163, 244);
+
 }
 .hover{
   display: flex;
@@ -121,6 +133,7 @@ padding-left: 30px;
   font-size: 18px;
   padding: 25px;
  padding-right: 50px;
+ width:520px;
 
 }
 .tes2{
@@ -140,7 +153,13 @@ padding-left: 30px;
   
 }
 .ishu{
-  width:1550px
+  width:1500px;
+  object-fit:cover;
+}
+.ishu1{
+  width:1500px;
+  height:500px;
+  object-fit:cover;
 }
 
 .brand{
