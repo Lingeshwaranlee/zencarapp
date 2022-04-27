@@ -136,9 +136,9 @@ export function Hyundai() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.popsci.com/uploads/2022/04/01/stellantis.jpeg?auto=webp'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1> ENGINE & PERFORMANCE</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >With Hyundai’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.<ul><li>Fuel efficiency</li><li>high torque</li><li>maximum speed</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li></ul></h4></div>
+  <div style={{ background: "white" ,color:" black",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}> ENGINE & PERFORMANCE</h1>
+  <h4 className="test"style={{lineHeight:"30px",color:" black"}} >With Hyundai’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.<ul><li>Fuel efficiency</li><li>high torque</li><li>maximum speed</li><li>Stolen vehicle tracking</li><li>Intrusion alert</li></ul></h4></div>
   
 </div>
 
@@ -163,15 +163,15 @@ export function Hyundai() {
 <div className='hover1'>
   
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>ADVENT OF SMART CARS</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Smart</h2></h4></div>
+     <h1 style={{color:"crimson"}}>ADVENT OF SMART CARS</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Smart</span>  </h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://im.indiatimes.in/amp/2019/May/hyundai_cars_hyundai_electric_cars_hyundai_smart_cars_hyundai_motors_india_hyundai_smart_mobilit_1557393935.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>Hyundai Kona EV </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  EV</h2></h4></div>
+     <h1 style={{color:"crimson"}}>Hyundai Kona EV </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> EV</span> </h2></h4></div>
   
 </div>
 </div>

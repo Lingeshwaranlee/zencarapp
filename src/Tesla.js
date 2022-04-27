@@ -93,9 +93,9 @@ export function Tesla() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"540px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/9a77958a-146d-40de-8a5f-0ba8af777fdf/bvlatuR/std/2560x1440/Model-3-Interior-Hero-Desktop-LHD'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>Interior of the Future</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Safety</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px",height:"490px"}}>
+     <h1 style={{color:"crimson"}}>Interior of the Future</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson"}}>Safety</span></h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -105,7 +105,7 @@ export function Tesla() {
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
+  <h1  >EXPERIENCE</h1>
   <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to TESLA than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
@@ -118,16 +118,16 @@ export function Tesla() {
 <img className="ishu1"   src="https://tesla-cdn.thron.com/delivery/public/image/tesla/48b20b9d-9322-4cf9-b079-44797fc32600/bvlatuR/std/0x0/AWD_hero@2"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>AUTOPILOT MODE</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Autopilot</h2></h4></div>
+  <div style={{  background:  "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"500px"}}>
+     <h1 style={{color:"crimson"}}>AUTOPILOT MODE</h1>
+  <h4 className="test1" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson"}}>Autopilot</span></h2></h4></div>
   <div><img  style={{ width:"800px", height:"550px",objectFit:"cover"}} src='https://images.hgmsites.net/hug/tesla-autopilot-suite-of-features--with-version-7-0-update_100530452_h.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/b7e5f13a-e8f8-4428-b29e-b2ba6cf5220b/bvlatuR/std/1920x1080/MS-Safety-Hero-Desktop'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>High Impact Protection</h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost..<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Protection</h2></h4></div>
+  <div style={{ background: "white" ,color:" black",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>High Impact Protection</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost..<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> <span style={{color:"crimson"}}>Protection</span> </h2></h4></div>
   
 </div>
 </div>

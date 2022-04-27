@@ -112,9 +112,9 @@ export function Benz() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.popsci.com/uploads/2022/04/01/stellantis.jpeg?auto=webp'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>ELECTRIFIED V8 BITURBO GASOLINE ENGINE</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Mercedes-Benz added an electrified V8 Biturbo gasoline engine with a 48-volt on-board electrical system and generator to its GLE and GLS models. This new configuration produces 483 horsepower and 516 pound-feet of torque.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Engine</h2></h4></div>
+  <div style={{ background: "white" ,color:" black",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1 style={{color:"crimson"}}>ELECTRIFIED V8 BITURBO GASOLINE ENGINE</h1>
+  <h4 className="test1"style={{lineHeight:"30px",color:"black"}} >Mercedes-Benz added an electrified V8 Biturbo gasoline engine with a 48-volt on-board electrical system and generator to its GLE and GLS models. This new configuration produces 483 horsepower and 516 pound-feet of torque.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Engine</span> </h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -137,16 +137,16 @@ export function Benz() {
 <img className="ishu1"  src="https://www.mercedes-benz.co.in/passengercars/content-pool/marketing-pool/product-page-stages/a-class-sedan-stage-v177-amg/_jcr_content/par/stageelementcampaign_585506700.MQ6.0.stage.20220420164351.jpeg"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>Interior of the Future</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Benz effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Dashboard</h2></h4></div>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>Interior of the Future</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:'white'}} >Benz effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Dashboard</span> </h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/eqc/design/line-details/interior/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide_8d19/image.MQ6.12.20200703092501.jpeg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://electrek.co/wp-content/uploads/sites/3/2022/01/Mercedes-EQXX-Rear.jpg?quality=82&strip=all&w=1600'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>Vision EQXX </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Vision</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>Vision EQXX </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Vision</span> </h2></h4></div>
   
 </div>
 </div>

@@ -100,12 +100,7 @@ export function RollRoyce() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <div className='header1'>
-  <div className='header__logo1'>
-    <img className='header__logoImgq' src="https://www.carlogos.org/logo/Rolls-Royce-RR-logo-1920x1080.png"></img>
   
-  </div>
-  </div>
       <Header1/>
      
       
@@ -117,9 +112,9 @@ export function RollRoyce() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/3-7-5-bb-cullinan/components/rolls-royce-black-badge-cullinan_product-page-distictive-in-design-bg-d.jpg/jcr:content/renditions/cq5dam.web.828.webp'></img></div>
-  <div style={{ background:  "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>DISTINCTIVE IN DESIGN</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Design</h2></h4></div>
+  <div style={{ background:  "black" ,color:"white",paddingTop:"40px",height:"450px", paddingLeft:"100px"}}>
+     <h1 style={{color:"crimson"}}>DISTINCTIVE IN DESIGN</h1>
+  <h4 className="test1" style={{lineHeight:"30px"}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:'white'}}><ArrowForwardIcon/></IconButton><span  style={{color:"crimson"}}> Design</span> </h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -142,16 +137,16 @@ export function RollRoyce() {
 <img className="ishu1"  src="https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/4-0-bespoke/components/rolls-royce-discover-bespoke-wraith-egale-viii.jpg/jcr:content/renditions/cq5dam.web.1668.webp"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>SATELLITE-AIDED TRANSMISSION</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global  positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>(SAT)</h2></h4></div>
+  <div style={{  background:  "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>SATELLITE-AIDED TRANSMISSION</h1>
+  <h4 className="test1" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global  positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span  style={{color:"crimson"}}>(SAT)</span></h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.satellitetoday.com/wp-content/uploads/2017/07/04-swb_lights-jpg-rr-1366-med.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"530px",objectFit:"cover"}} src='https://media.wired.co.uk/photos/606da4b6581351b2c44d7c98/16:9/w_2560%2Cc_limit/RR11_FRONT_DARK_02.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>NIGHT VISION</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Vison</h2></h4></div>
+  <div style={{ background:  "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"480px"}}>
+     <h1 style={{color:"crimson"}}>NIGHT VISION</h1>
+  <h4 className="test1"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:'white'}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson",}}>Vison</span></h2></h4></div>
   </div>
 </div>
     <div className="joy">

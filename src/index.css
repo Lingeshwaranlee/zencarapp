@@ -6,6 +6,16 @@ body{
   text-align: center;
   
 }
+.sanga{
+  display: flex;
+  gap:40px;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 270px;
+}
 .fog{
   display: flex;
   gap:40px;
@@ -19,17 +29,12 @@ body{
   
 }
 
-
-.quike2{
-  color:white;
-  
-  background-image: linear-gradient(to right, orange,crimson);
+.kgf{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
-.quike3{
-  color:white;
-  background-color: rgb(12, 163, 244);
 
-}
 .hover{
   display: flex;
 }
@@ -129,6 +134,16 @@ padding-left: 30px;
 .test{
 
   color: #393c41;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 25px;
+ padding-right: 50px;
+ width:520px;
+
+}
+.test1{
+
+  color:white;
   font-weight: 500;
   font-size: 18px;
   padding: 25px;
@@ -632,7 +647,7 @@ padding-right: 3px;
   place-items: center;
 }
 .headerBlock5 {
-  background: url('https://cars.tatamotors.com/images/altroz/download/1440x900/brochure-img-07_1440_900.jpg') no-repeat
+  background: url('https://cars.tatamotors.com/images/nexon/brochures/img4_1280_800.png') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -156,9 +156,9 @@ export function Tata() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cars.tatamotors.com/images/nexon/key-feature-05-new.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>SAFETY</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Safety</h2></h4></div>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>SAFETY</h1>
+  <h4 className="test"style={{lineHeight:"30px",color:" white"}} >With architecture itself that’s built for safety, we made your oldest need, new. Dangers become new too, Safety can’t just be new once. It has to be New Forever. We Drive New Forever.It’s true. Design shouldn’t just look great, it should do great things. But while being new, design needs to evoke a love that’s eternal. Design shouldn’t just be new. <br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Safety</span></h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -168,7 +168,7 @@ export function Tata() {
   
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
+  <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
   <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Tata than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
@@ -181,16 +181,16 @@ export function Tata() {
 <img className="ishu"  src="https://cars.tatamotors.com/images/dark/altroz-imaginator.jpg"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>NEXT LEVEL TECHNOLOGY</h1>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>NEXT LEVEL TECHNOLOGY</h1>
   <h4 className="test" style={{lineHeight:"30px"}} >Presenting iRA – a cool new connected tech platform that is in sync with India. It offers a range of innovative features that are especially developed keeping in mind the needs of the India car buyer <ul><li>Panic Notification</li><li>Find my car</li><li>Emergency SMS</li><li>Stolen vehicle tracking</li><li>Remote Immobilisation</li></ul></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.drivespark.com/img/2020/06/tata-nexon-ira-advanced-connected-technology1-1591446088.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2016/07/0029.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>DEFENCE</h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Defence</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>DEFENCE</h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Defence</span> </h2></h4></div>
   
 </div>
 </div>

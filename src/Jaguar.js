@@ -114,9 +114,9 @@ export function Jaguar() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://blogmedia.dealerfire.com/wp-content/uploads/sites/380/2021/04/2021-Jaguar-XF-steering-wheel-and-center-console_o.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-  <h1> TECHNOLOGY</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >With Jaguar’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Technology</h2></h4></div>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+  <h1 style={{color:"crimson"}}> TECHNOLOGY</h1>
+  <h4 className="test"style={{lineHeight:"30px",color:"white"}} >With Jaguar’s infotainment system, you’re seamlessly connected to the rest of the world.All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Technology</span> </h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -139,17 +139,16 @@ export function Jaguar() {
 <img className="ishu1"  src="https://wallpapercave.com/wp/wp6014820.jpg"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>THE NEW RANGE ROVER</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Is Land Rover coming out with a new Range Rover?
-THE NEW RANGE ROVER – 50 YEARS IN THE MAKING The fifth-generation Range Rover makes its debut for 2022 in standard – or long-wheelbase form in SE, Autobiography, or First Edition trim. The new Range Rover is a combination of breathtaking modern designs, peerless refinement, and unmatched capability.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Range Rover</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>THE NEW RANGE ROVER</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Is Land Rover coming out with a new Range Rover? THE NEW RANGE ROVER – 50 YEARS IN THE MAKING The fifth-generation Range Rover makes its debut for 2022 in standard – or long-wheelbase form in SE, Autobiography, or First Edition trim. The new Range Rover is a combination of breathtaking modern designs, peerless refinement, and unmatched capability.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Range Rover</span></h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cdn.motor1.com/images/mgl/rPeMX/s1/range-rover-evoque-autobiography-2021-in-grau-dreiviertelansicht-von-schrag-vorne.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://s3-prod-europe.autonews.com/s3fs-public/ANE_160919894_AR_-1_PNGCZPZMNHNW.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>PERFORMANCE </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.Enjoy greater efficiencies along with Jaguar performance. As well as a range of efficient petrol engines, XF features a diesel range that is enhanced by mild hybrid technology; a smart regenerative system that charges during deceleration and braking.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Performance</h2></h4></div>
+  <div style={{ background: "white" ,color:" balck",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>PERFORMANCE </h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.Enjoy greater efficiencies along with Jaguar performance. As well as a range of efficient petrol engines, XF features a diesel range that is enhanced by mild hybrid technology; a smart regenerative system that charges during deceleration and braking.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Performance</span></h2></h4></div>
   
 </div>
 </div>

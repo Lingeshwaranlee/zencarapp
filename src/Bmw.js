@@ -117,9 +117,9 @@ export function Bmw() {
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src= "https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Design.jpg.grp-transform/xxlarge/Innovationen_Design.jpg"></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>DESIGN</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Creating innovative experiences, aesthetic appeal and elegance or providing visual clues are just some of the areas where design contributes to innovation. This not only creates an unmistakeable look, but also reflects the company’s pioneering role.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  Design</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>DESIGN</h1>
+  <h4 className="test"style={{lineHeight:"30px"}} >Creating innovative experiences, aesthetic appeal and elegance or providing visual clues are just some of the areas where design contributes to innovation. This not only creates an unmistakeable look, but also reflects the company’s pioneering role.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> <span style={{color:"crimson"}}>Design</span> </h2></h4></div>
   
 </div>
 <div className='fog' >
@@ -142,16 +142,16 @@ export function Bmw() {
 <img className="ishu1"  src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/all-models/BMW%20Series/bmw-2-series/Main%20Banner%20Desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1601620546255.jpg"></img>
 <div className='hover1'>
   
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>TURBO ENGINE TECHNOLOGY</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >BMW TwinPower Turbo diesel engines deliver a spirited response,impressive fuel economy and low emissions. All diesel engines boast the following BMW innovations: progressive turbocharger technology, variable turbine geometry and common-rail direct injection.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> TE Technology</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>TURBO ENGINE TECHNOLOGY</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >BMW TwinPower Turbo diesel engines deliver a spirited response,impressive fuel economy and low emissions. All diesel engines boast the following BMW innovations: progressive turbocharger technology, variable turbine geometry and common-rail direct injection.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>TE Technology</span> </h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.northernbm.com.au/wp-content/uploads/2021/02/bmw-engine-wallpaper-bmw-cars_00429885.jpg'></img></div>
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Effizienz_Elektromobilitaet.jpg.grp-transform/xxlarge/Innovationen_Effizienz_Elektromobilitaet.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1>EFFICIENY AND ELECTRO-MOBILITY.</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Sustainability has defined the thinking and actions of the BMW Group since the early 1970s. Since then, the company has optimised countless production processes and developed innovative technologies. Key topics are efficiency and electro-mobility.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> Efficiency</h2></h4></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>EFFICIENY AND ELECTRO-MOBILITY.</h1>
+  <h4 className="test" style={{lineHeight:"30px"}} >Sustainability has defined the thinking and actions of the BMW Group since the early 1970s. Since then, the company has optimised countless production processes and developed innovative technologies. Key topics are efficiency and electro-mobility.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Efficiency</span> </h2></h4></div>
   
 </div>
     </div>
