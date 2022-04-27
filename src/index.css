@@ -6,6 +6,77 @@ body{
   text-align: center;
   
 }
+.article {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.header1{
+  font-size: 30px;
+  color: crimson;
+  text-align: center;
+  position: absolute;
+   left: 0;
+  right: 0;
+  margin-top: 180px;
+  margin-left: 100px;
+  height: fit-content;
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+.header2{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  line-height: 40px;
+  left: 0;
+  right: 0;
+  margin-top: 260px;
+  margin-left: 130px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header3{
+  font-size: 35px;
+  color: crimson;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 130px;
+  margin-left: 730px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header4{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  line-height: 30px;
+  left: 0;
+  right: 0;
+  margin-top: 190px;
+  margin-left: 870px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
 .sanga{
   display: flex;
   gap:40px;
@@ -603,7 +674,7 @@ padding-right: 3px;
   place-items: center;
 }
 .headerBlock2 {
-  background: url('https://www.bmwcartuning.com/wp-content/uploads/2015/05/BMW-M4-by-ADV.1-Wheels-2.jpg') no-repeat
+  background: url('https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/x-series/x7/X7DarkShadow/X3-1680x756_05.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1642656232136.jpg') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -618,7 +689,7 @@ padding-right: 3px;
   place-items: center;
 }
 .headerBlock3 {
-  background: url('https://ydnews.in/wp-content/uploads/2021/06/MERC-1.jpg') no-repeat
+  background: url('https://www.pixel4k.com/wp-content/uploads/2019/01/black-mercedes-benz-amg-gt-4k_1546362618.jpg') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -633,7 +704,7 @@ padding-right: 3px;
 }
 
 .headerBlock4 {
-  background: url('https://images.hgmsites.net/hug/hydrogen-powered-land-rover-defender-prototype--june-2021_100795643_h.jpg') no-repeat
+  background: url('https://cdn.motor1.com/images/mgl/ArYx6/s1/2019-jaguar-i-pace.jpg') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -661,7 +732,7 @@ padding-right: 3px;
   place-items: center;
 }
 .headerBlock0 {
-  background: url('https://imgd.aeplcdn.com/0x0/n/cw/ec/41564/creta-exterior-left-front-three-quarter.jpeg') no-repeat
+  background: url('https://wallpaperaccess.com/full/1518929.jpg') no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

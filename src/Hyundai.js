@@ -120,12 +120,7 @@ export function Hyundai() {
   return (
     
     <div>
-    <div className='header1'>
-  <div className='header__logo1'>
-   
-  
-  </div>
-  </div>
+    
      
       <Header0/>
       <h1 className="brand">HYUNDAI-SERIES <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
@@ -148,6 +143,23 @@ export function Hyundai() {
   
   
 </div>
+
+<img className="ishu"  src="https://cars.tatamotors.com/images/dark/altroz-imaginator.jpg"></img>
+<div className='hover1'>
+  
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>ADVENT OF SMART CARS</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:" white"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Smart</span>  </h2></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Gallery/Hyundai-i20Nline-Gallery-Mid-PC-1120x600-9.jpg'></img></div>
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
+  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+     <h1 style={{color:"crimson"}}>Hyundai Kona EV </h1>
+  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> EV</span> </h2></h4></div>
+  
+</div>
+</div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
   <h1 >EXPERIENCE</h1>
   <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Hyundai than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
@@ -158,22 +170,6 @@ export function Hyundai() {
   <div><img style={{width:"400px",height:"300px",objectFit:"cover"}}  src='https://www.insideevsforum.com/community/index.php?media/kona-electric-interior-2.84/full'></img><p style={{textAlign:"center",fontSize:'18px'}}>Eye Catching Dashboard.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">CONNECTS</Button></div>
   <div><img style={{width:"400px",height:"300px",objectFit:"cover"}} src='https://www.hyundaicanada.com/-/media/hyundai/showroom/2022/kona-electric/exterior-feature-gallery/thumbnail/large/kona_electric_exterior_f3.jpg?h=1024&w=1024&la=en&hash=FBEE5DEB1F69E39CDEE98BB7D5A043700C5F635F'></img><p style={{textAlign:"center",fontSize:'18px'}}>Rides very smooth</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Book Ride</Button></div>
   
-</div>
-<img className="ishu"  src="https://cars.tatamotors.com/images/dark/altroz-imaginator.jpg"></img>
-<div className='hover1'>
-  
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1 style={{color:"crimson"}}>ADVENT OF SMART CARS</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Smart</span>  </h2></h4></div>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://im.indiatimes.in/amp/2019/May/hyundai_cars_hyundai_electric_cars_hyundai_smart_cars_hyundai_motors_india_hyundai_smart_mobilit_1557393935.jpg'></img></div>
-</div>
-<div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
-     <h1 style={{color:"crimson"}}>Hyundai Kona EV </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> EV</span> </h2></h4></div>
-  
-</div>
 </div>
     <div className="joy">
     <h1>About Hyundai:</h1>

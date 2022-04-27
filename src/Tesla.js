@@ -92,17 +92,36 @@ export function Tesla() {
     
     <div style={{marginTop:"50px"}}>
     <div className='hover'>
-  <div><img  style={{ width:"800px", height:"540px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/9a77958a-146d-40de-8a5f-0ba8af777fdf/bvlatuR/std/2560x1440/Model-3-Interior-Hero-Desktop-LHD'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px",height:"490px"}}>
-     <h1 style={{color:"crimson"}}>Interior of the Future</h1>
-  <h4 className="test"style={{lineHeight:"30px"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson"}}>Safety</span></h2></h4></div>
+  <div><img  style={{ width:"800px", height:"540px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/b89f75da-2da4-4c2f-a94e-458b58bdfc26/bvlatuR/std/4096x3072/Model-S-Specs-Hero-Desktop-LHD'></img></div>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px",height:"490px"}}>
+     <h1 style={{color:"crimson"}}>Exterior of the Future</h1>
+  <h4 className="test"style={{lineHeight:"30px",color:" white"}} >Tesla effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any tesla at any point in history.Tesla motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson"}}>Safety</span></h2></h4></div>
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/0f22af4d-15e0-452d-ba66-1359490b4a0b/bvlatuR/std/2880x1800/Cybertruck-Hero-Desktop'></img><h2 style={{textAlign:"center"}}></h2></div>
-  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://images.hgmsites.net/hug/2017-tesla-model-x_100585116_h.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div style={{paddingLeft:"150px"}}>
+    <img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD'></img>
+  
+  </div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://images.hgmsites.net/hug/2017-tesla-model-x_100585116_h.jpg'></img></div>
   
   
+</div>
+
+<img className="ishu1"   src="https://tesla-cdn.thron.com/delivery/public/image/tesla/48b20b9d-9322-4cf9-b079-44797fc32600/bvlatuR/std/0x0/AWD_hero@2"></img>
+<div className="article">
+  <img className="ishu" src="https://prog-ace-cdn.azureedge.net/-/media/project/mahindra/dotcom/mahindra/keyhighlights/thar/desktop/engine_desktop_1920x745.png?la=en&rev=ca60c89b7591439eba4022c75e691fb5&extension=webp"></img>
+<h4 className="header1">Power that takes your breath away</h4>
+<p className="header2">Choose between the All-New mStallion150 petrol<br></br> engine and mHawk130 diesel engine. With 6-speed <br></br>automatic and manual transmission options.</p>
+
+</div>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/b7e5f13a-e8f8-4428-b29e-b2ba6cf5220b/bvlatuR/std/1920x1080/MS-Safety-Hero-Desktop'></img></div>
+  <div style={{ background: "white" ,color:" black",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>High Impact Protection</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost..<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> <span style={{color:"crimson"}}>Protection</span> </h2></h4></div>
+  
+</div>
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
   <h1  >EXPERIENCE</h1>
@@ -114,22 +133,6 @@ export function Tesla() {
   <div><img style={{width:"400px",height:'280px',objectFit:"cover"}}  src='https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/1_4bce9de4-7beb-4f2f-a652-0943acff931e_1200x.jpg?v=1643994538'></img><p style={{textAlign:"center",fontSize:'18px'}}>Dark eye in the hustle .</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">Explore Offers</Button></div>
   <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://techcrunch.com/wp-content/uploads/2017/08/tesla-model-3-in-car-ux.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}> Connects you worldwide.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">connect</Button></div>
   
-</div>
-<img className="ishu1"   src="https://tesla-cdn.thron.com/delivery/public/image/tesla/48b20b9d-9322-4cf9-b079-44797fc32600/bvlatuR/std/0x0/AWD_hero@2"></img>
-<div className='hover1'>
-  
-  <div style={{  background:  "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"500px"}}>
-     <h1 style={{color:"crimson"}}>AUTOPILOT MODE</h1>
-  <h4 className="test1" style={{lineHeight:"30px"}} >Phantom predicts the road ahead using satellite communication technology. Then, the correct gear from the eight-speed transmission is  selected, making motoring natural and effortless.The Wraith uses global positioning satellite data to determine the road and conditions in real   time. This data is then used to anticipate how and when to shift gears, in  what is called Satellite Aided Transmission (SAT)<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson"}}>Autopilot</span></h2></h4></div>
-  <div><img  style={{ width:"800px", height:"550px",objectFit:"cover"}} src='https://images.hgmsites.net/hug/tesla-autopilot-suite-of-features--with-version-7-0-update_100530452_h.jpg'></img></div>
-</div>
-<div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://tesla-cdn.thron.com/delivery/public/image/tesla/b7e5f13a-e8f8-4428-b29e-b2ba6cf5220b/bvlatuR/std/1920x1080/MS-Safety-Hero-Desktop'></img></div>
-  <div style={{ background: "white" ,color:" black",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
-     <h1 style={{color:"crimson"}}>High Impact Protection</h1>
-  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Tesla’s latest active safety features, such as Automatic Emergency Braking, at no extra cost..<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> <span style={{color:"crimson"}}>Protection</span> </h2></h4></div>
-  
-</div>
 </div>
     <div className="joy">
       <h1>About Tesla:</h1>

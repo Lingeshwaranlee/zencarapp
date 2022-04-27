@@ -37,7 +37,7 @@ export function Jaguar() {
     {
       "id": "140",
       "name": "JAGUAR  I-PACE",
-      "poster": "https://cdn.motor1.com/images/mgl/ArYx6/s1/2019-jaguar-i-pace.jpg",
+      "poster": "https://static.dezeen.com/uploads/2016/11/i-pace-electric-car-jaguar-design_dezeen_social.jpg",
       "varients":["Base=1.12 Crore","Middle= 2.2-crores","Top= 4.2-crores"],
       "color":["White","Black","Red","Blue","Brown"],
       "type": "ELECTRIC",
@@ -97,12 +97,7 @@ export function Jaguar() {
   const[east,seteast]=useState(false);
   return (
     <div>
-     <div className='header4'>
-  <div className='header__logo1'>
-  
-           
-  </div>
-  </div>
+     
 
 <Header4/>
       
@@ -120,10 +115,28 @@ export function Jaguar() {
   
 </div>
 <div className='fog' >
-  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://gaadiwaadi.com/wp-content/uploads/2020/10/Land-Rover-Defender-Country-pack-1018x720.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://thumbor.forbes.com/thumbor/fit-in/960x/https://www.forbes.com/wheels/wp-content/uploads/2021/07/LandRoverDefender_Trophy_1.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
   <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://s.yimg.com/uu/api/res/1.2/nK2aPDnfbGc78qyCM_Ag8A--~B/Zmk9ZmlsbDtoPTQ4Mjt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2020-09/a4af8220-f73e-11ea-bdf7-78c80d79efb3.cf.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
   
   
+</div>
+
+<img className="ishu1"  src="https://wallpapercave.com/wp/wp6014820.jpg"></img>
+<div className='hover2'>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://s3-prod-europe.autonews.com/s3fs-public/ANE_160919894_AR_-1_PNGCZPZMNHNW.jpg'></img></div>
+  <div style={{ background: "white" ,color:" balck",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>PERFORMANCE </h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.Enjoy greater efficiencies along with Jaguar performance. As well as a range of efficient petrol engines, XF features a diesel range that is enhanced by mild hybrid technology; a smart regenerative system that charges during deceleration and braking.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Performance</span></h2></h4></div>
+  
+</div>
+<div className='hover1'>
+  
+  <div style={{ background: "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>THE NEW RANGE ROVER</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"white"}} >Is Land Rover coming out with a new Range Rover? THE NEW RANGE ROVER – 50 YEARS IN THE MAKING The fifth-generation Range Rover makes its debut for 2022 in standard – or long-wheelbase form in SE, Autobiography, or First Edition trim. The new Range Rover is a combination of breathtaking modern designs, peerless refinement, and unmatched capability.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Range Rover</span></h2></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://c4.wallpaperflare.com/wallpaper/531/540/965/range-rover-sport-4k-download-for-pc-hd-wallpaper-preview.jpg'></img></div>
+</div>
+
 </div>
 <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
   <h1 >EXPERIENCE</h1>
@@ -135,22 +148,6 @@ export function Jaguar() {
   <div><img style={{width:"400px",height:"280px",objectFit:"cover"}}  src='https://wallpapercave.com/wp/wp6014820.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Defender xs 90's edition.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">defence</Button></div>
   <div><img style={{width:"400px",height:"280px",objectFit:"cover"}} src='https://images.caricos.com/l/land_rover/2020_land_rover_defender_90/images/2560x1440/2020_land_rover_defender_90_86_2560x1440.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Eye Catching Dashboard .</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
-</div>
-<img className="ishu1"  src="https://wallpapercave.com/wp/wp6014820.jpg"></img>
-<div className='hover1'>
-  
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
-     <h1 style={{color:"crimson"}}>THE NEW RANGE ROVER</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Is Land Rover coming out with a new Range Rover? THE NEW RANGE ROVER – 50 YEARS IN THE MAKING The fifth-generation Range Rover makes its debut for 2022 in standard – or long-wheelbase form in SE, Autobiography, or First Edition trim. The new Range Rover is a combination of breathtaking modern designs, peerless refinement, and unmatched capability.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Range Rover</span></h2></h4></div>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cdn.motor1.com/images/mgl/rPeMX/s1/range-rover-evoque-autobiography-2021-in-grau-dreiviertelansicht-von-schrag-vorne.jpg'></img></div>
-</div>
-<div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://s3-prod-europe.autonews.com/s3fs-public/ANE_160919894_AR_-1_PNGCZPZMNHNW.jpg'></img></div>
-  <div style={{ background: "white" ,color:" balck",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
-     <h1 style={{color:"crimson"}}>PERFORMANCE </h1>
-  <h4 className="test" style={{lineHeight:"30px",color:"black"}}>All the power and agility of a true thoroughbred. With state-of-the art driving systems making an unforgettable experience.F‑TYPE is Jaguar design in its most athletic form — lean, and elegant from any angle.Enjoy greater efficiencies along with Jaguar performance. As well as a range of efficient petrol engines, XF features a diesel range that is enhanced by mild hybrid technology; a smart regenerative system that charges during deceleration and braking.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> Performance</span></h2></h4></div>
-  
-</div>
 </div>
     <div className="joy">
     <h1>About Jaguar:</h1>

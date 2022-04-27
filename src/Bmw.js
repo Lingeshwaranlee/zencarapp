@@ -99,13 +99,7 @@ export function Bmw() {
   const[east,seteast]=useState(false);
   return (
     <div>
-      <div className='header2'>
-  <div className='header__logo1'>
-  <img className='header__logoImgw' src="https://www.bmwgroup.com/etc.clientlibs/bmwgroup/clientlibs/clientlib-site/resources/img/brands/BMW-MR_stdBM_pos_rgb_HR.png"></img>
-  <img  className='header__logoImg2' src='https://listcarbrands.com/wp-content/uploads/2015/10/BMW-LOGO.png'
-            alt='profile' />
-  </div>
-  </div>
+     
      
       < Header2/>
       
@@ -115,20 +109,39 @@ export function Bmw() {
       
     </div>
     <div style={{marginTop:"50px"}}>
-    <div className='hover'>
+    
+<div className='hover1'>
+  
+  <div style={{ background: "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>TURBO ENGINE TECHNOLOGY</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:"white"}} >BMW TwinPower Turbo diesel engines deliver a spirited response,impressive fuel economy and low emissions. All diesel engines boast the following BMW innovations: progressive turbocharger technology, variable turbine geometry and common-rail direct injection.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:"white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>TE Technology</span> </h2></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.supercars.net/blog/wp-content/uploads/2021/08/amalgam-collection-bugatti-chiron-engine.jpg'></img></div>
+</div>
+<div className='fog' >
+  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80'></img><h2 style={{textAlign:"center"}}></h2></div>
+  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://bmwindia.co.in/corporate/offers/images/header/mobile/5series.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+  
+  
+</div>
+
+<img className="ishu1"  src="https://images2.alphacoders.com/997/997526.jpg"></img>
+<div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src= "https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Design.jpg.grp-transform/xxlarge/Innovationen_Design.jpg"></img></div>
   <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
      <h1 style={{color:"crimson"}}>DESIGN</h1>
   <h4 className="test"style={{lineHeight:"30px"}} >Creating innovative experiences, aesthetic appeal and elegance or providing visual clues are just some of the areas where design contributes to innovation. This not only creates an unmistakeable look, but also reflects the company’s pioneering role.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton> <span style={{color:"crimson"}}>Design</span> </h2></h4></div>
   
 </div>
-<div className='fog' >
-  <div style={{paddingLeft:"150px"}}><img style={{width:"600px",height:"400px",objectFit:"cover"}} src='https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/Public%20Pool/Teaser%20Pool/Small%20Teaser/shop_online.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
-  <div><img style={{width:"600px",height:"400px",objectFit:"cover"}}  src='https://bmwindia.co.in/corporate/offers/images/header/mobile/5series.jpg'></img><h2 style={{textAlign:"center"}}></h2></div>
+<div className='hover1'>
   
-  
+  <div style={{  background:  "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+     <h1 style={{color:"crimson"}}>EFFICIENY AND ELECTRO-MOBILITY.</h1>
+  <h4 className="test1" style={{lineHeight:"30px"}} >Sustainability has defined the thinking and actions of the BMW Group since the early 1970s. Since then, the company has optimised countless production processes and developed innovative technologies. Key topics are efficiency and electro-mobility.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:'white'}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Efficiency</span> </h2></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://cdn.vox-cdn.com/thumbor/k6v6kZ6QrqsjdjwZXmjUI_bo7TY=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10716925/P90301493_highRes.jpg'></img></div>
 </div>
-<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+
+    </div>
+    <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
   <h1 >EXPERIENCE</h1>
   <h3 className="tes" style={{lineHeight:"30px"}} >As a world-class marque, there is more to Bayerische Motoren Werke Aktiengesellschaft than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
@@ -139,22 +152,6 @@ export function Bmw() {
   <div><img style={{width:"400px"}} src='https://drop.ndtv.com/albums/AUTO/2019-bmw-3-series/4.jpg'></img><p style={{textAlign:"center",fontSize:'18px'}}>Sound which has  unique frequency.</p><Button style={{marginLeft:"100px",width:"200px",background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",}} variant="contained">learn about</Button></div>
   
 </div>
-<img className="ishu1"  src="https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/Images/all-models/BMW%20Series/bmw-2-series/Main%20Banner%20Desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1601620546255.jpg"></img>
-<div className='hover1'>
-  
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
-     <h1 style={{color:"crimson"}}>TURBO ENGINE TECHNOLOGY</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >BMW TwinPower Turbo diesel engines deliver a spirited response,impressive fuel economy and low emissions. All diesel engines boast the following BMW innovations: progressive turbocharger technology, variable turbine geometry and common-rail direct injection.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>TE Technology</span> </h2></h4></div>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.northernbm.com.au/wp-content/uploads/2021/02/bmw-engine-wallpaper-bmw-cars_00429885.jpg'></img></div>
-</div>
-<div className='hover2'>
-  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/innovation/technologie_und_mobilitaet/Innovationen_Effizienz_Elektromobilitaet.jpg.grp-transform/xxlarge/Innovationen_Effizienz_Elektromobilitaet.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
-     <h1 style={{color:"crimson"}}>EFFICIENY AND ELECTRO-MOBILITY.</h1>
-  <h4 className="test" style={{lineHeight:"30px"}} >Sustainability has defined the thinking and actions of the BMW Group since the early 1970s. Since then, the company has optimised countless production processes and developed innovative technologies. Key topics are efficiency and electro-mobility.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Efficiency</span> </h2></h4></div>
-  
-</div>
-    </div>
     <div className="joy">
      
     <h1>About Bmw:</h1>
