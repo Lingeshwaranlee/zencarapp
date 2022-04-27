@@ -64,12 +64,18 @@ function Home(){
        
 
  
-
+        <div className='hover1' style={{padding:"20px"}}>
+  
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+     <h1 style={{color:"crimson"}}>ADVENT OF SMART CARS</h1>
+  <h4 className="test" style={{lineHeight:"30px",color:" white"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Smart</span>  </h2></h4></div>
+  <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Gallery/Hyundai-i20Nline-Gallery-Mid-PC-1120x600-9.jpg'></img></div>
+</div>
 <div className='hover'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://images.caricos.com/r/rolls-royce/2013_rolls-royce_ghost_otaon/images/1920x1080/2013_rolls-royce_ghost_otaon_11_1920x1080.jpg'></img></div>
   <div style={{ background: "black" ,color:"white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
      <h1 style={{color:'crimson'}}>HERITAGE MEETS MODERNITY</h1>
-  <h4 className="test" style={{lineHeight:"30px",color:'white'}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.</h4></div>
+  <h4 className="test" style={{lineHeight:"30px",color:'white'}} >Phantom effortlessly blends the classic with the strikingly modern. Dials that hark back to the Golden Age of Motoring are all digital, and yet are as striking to behold as any Rolls-Royce at any point in history.Rolls-Royce motor cars have been graced by the Spirit of Ecstasy mascot, one of the most recognisable emblems ever created. Yet, remarkably, given her immense fame and global reach, aspects of her story remain open to speculation, confusion and no little controversy.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Dashboard</span></h2></h4></div>
   
 </div>
 <div className='fog' >
