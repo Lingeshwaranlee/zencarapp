@@ -141,9 +141,9 @@ export function Bmw() {
 </div>
 
     </div>
-    <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
-  <h3 className="tes" style={{lineHeight:"30px"}} >As a world-class marque, there is more to Bayerische Motoren Werke Aktiengesellschaft than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+    <div className="op" style={{  background:  "black" ,color:"white",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 style={{color:"crimson"}} >EXPERIENCE</h1>
+  <h3 className="tes" style={{lineHeight:"30px",color:"white"}} >As a world-class marque, there is more to Bayerische Motoren Werke Aktiengesellschaft than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
@@ -154,7 +154,7 @@ export function Bmw() {
 </div>
     <div className="joy">
      
-    <h1>About Bmw:</h1>
+    <h1 style={{color:"crimson"}}>About Bmw:</h1>
       <h2 className="tes1">BMW’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes" style={{lineHeight:"30px"}}>BMW makes perhaps the most advanced, luxurious, and
          performance-oriented automobiles on the planet, and that status 

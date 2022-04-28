@@ -173,15 +173,15 @@ export function Tata() {
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.tatamotors.com/wp-content/uploads/2016/07/0029.jpg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+  <div style={{background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
      <h1 style={{color:"crimson"}}>DEFENCE</h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Defence</span> </h2></h4></div>
+  <h4 className="test" style={{lineHeight:"30px",color:" white"}}>The Tata Group's history with the Defence sector goes back to the 1940s when the Group supplied armoured steel to support the World War II effort. The Tata Group also developed a Wheeled Armoured Carrier - Indian Pattern or ACV-IP, better known as the 'Tatanagar'. From India's independence in 1947 till 2005, the Group has contributed to serving India's defence needs in the mobility segment through Tata Motors.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Defence</span> </h2></h4></div>
   
 </div>
 </div>
-<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
+<div className="op" style={{ background: "black" ,color:" white",paddingTop:"10px",marginTop:"10px"}}>
   <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
-  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Tata than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  <h3 className="tes"style={{lineHeight:"30px",color:"white"}} >As a world-class marque, there is more to Tata than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
@@ -191,7 +191,7 @@ export function Tata() {
   
 </div>
     <div className="joy">
-    <h1>About Tata:</h1>
+    <h1 style={{color:"crimson"}}>About Tata:</h1>
       <h2 className="tes1">TATA’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes">Tata Group is an Indian multinational conglomerate headquartered in Mumbai.
          Founded in 1868 by Jamshedji Tata, the group gained international recognition

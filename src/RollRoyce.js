@@ -142,9 +142,9 @@ export function RollRoyce() {
   <h4 className="test1"style={{lineHeight:"30px"}} >Sublime comforts and intuitive, discreet technology are always at your  fingertips. Phantom’s Night Vision option places an infrared camera in  the Pantheon Grille. Its reach extends far beyond the headlights’ beam to  alert the driver to hidden dangers on the road ahead, such as people and  animals, up to 300 metres away.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:'white'}}><ArrowForwardIcon/></IconButton>  <span style={{color:"crimson",}}>Vison</span></h2></h4></div>
   </div>
 </div>
-<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
-  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to TESLA than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+<div className="op" style={{ background:  "black" ,color:"white",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px",color:"white"}} >As a world-class marque, there is more to TESLA than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
@@ -154,7 +154,7 @@ export function RollRoyce() {
   
 </div>
     <div className="joy">
-    <h1>About RollRoyce:</h1>
+    <h1 style={{color:"crimson"}}>About RollRoyce:</h1>
       <h2 className="tes1">RollRoyce’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes"style={{lineHeight:"30px"}}>Rolls-Royce Holdings plc is a British multinational aerospace and defence company
          incorporated in February 2011. The company owns Rolls-Royce, a business established 

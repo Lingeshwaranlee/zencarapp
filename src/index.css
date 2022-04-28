@@ -188,14 +188,14 @@ padding-left: 30px;
 }
 .tes1{
   padding-left: 350px;
-  color: #393c41;
+  color: white;
   font-weight: 500;
   font-size: 23px;
 
 }
 .tes{
 
-  color: #393c41;
+  color: white;
   font-weight: 500;
   font-size: 18px;
   padding: 25px;
@@ -228,7 +228,7 @@ padding-left: 30px;
 
 
 .joy{
-  background-color: rgb(197, 190, 190);
+  background-color: black;
 }
 .tesla{
   width: 650px;

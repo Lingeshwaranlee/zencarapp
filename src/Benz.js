@@ -134,15 +134,15 @@ export function Benz() {
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://electrek.co/wp-content/uploads/sites/3/2022/01/Mercedes-EQXX-Rear.jpg?quality=82&strip=all&w=1600'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px",height:"440px"}}>
      <h1 style={{color:"crimson"}}>Vision EQXX </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Vision</span> </h2></h4></div>
+  <h4 className="test" style={{lineHeight:"30px",color:" white"}}>Mercedes-Benz has uncovered its new Vision EQXX concept electric car which claims a range of 1,000 km on a fully charged battery challenging Elon Musk's Tesla electric cars. The journey from Germany to the south of France began in cold and rainy circumstances, according to the company.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Vision</span> </h2></h4></div>
   
 </div>
 </div>
-<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
-  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Benz than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+<div className="op" style={{ background: "black" ,color:" white",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px",color:" white"}} >As a world-class marque, there is more to Benz than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
@@ -152,7 +152,7 @@ export function Benz() {
   
 </div>
     <div className="joy">
-    <h1>About Benz:</h1>
+    <h1 style={{color:"crimson"}}>About Benz:</h1>
       <h2 className="tes1">Benz’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes"style={{lineHeight:"30px"}}>BENZ serves purely as a status symbol for some, while for others 
         it's a belief in the mantra “The Ultimate Driving Machine” and philosophy 

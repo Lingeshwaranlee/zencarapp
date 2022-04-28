@@ -107,9 +107,9 @@ function Home(){
     <hr></hr>
     <div style={{maginLeft:"280px"}}><PhoneIcon  style={{fontSize:"50px",color:"crimson",marginTop:"17px",marginLeft:'30px'}}/><p >We are here to answer all your queries</p><Button variant="contained" style={{color:'crimson',backgroundColor:"rgb(185, 183, 183)",}}>REQUEST CALLBACK</Button></div>
   </div>
-  <div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
-  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+  <div className="op" style={{ background: "black" ,color:" white",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px",color:" white"}} >As a world-class marque, there is more to meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >

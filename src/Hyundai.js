@@ -154,15 +154,15 @@ export function Hyundai() {
 </div>
 <div className='hover2'>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='http://picolio.auto123.com/auto123-media/articles/2018/8/65046/hyundai_kona_auto123fr.jpeg'></img></div>
-  <div style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"50px",paddingLeft:"100px"}}>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px"}}>
      <h1 style={{color:"crimson"}}>Hyundai Kona EV </h1>
-  <h4 className="test" style={{lineHeight:"30px"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> EV</span> </h2></h4></div>
+  <h4 className="test" style={{lineHeight:"30px",color:" white"}}>The newly-styled sharper headlamps stretch around the side of the car. The high-tech headlamp inner bezel now incorporates multifaceted reflector (MFR) technology. There are new vertical air inlets in front of the wheel arch claddings, which claims to enhance its aerodynamics.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}> EV</span> </h2></h4></div>
   
 </div>
 </div>
-<div className="op" style={{ background: "rgb(197, 190, 190)" ,color:" rgb(41, 39, 39)",paddingTop:"10px",marginTop:"10px"}}>
-  <h1 >EXPERIENCE</h1>
-  <h3 className="tes"style={{lineHeight:"30px"}} >As a world-class marque, there is more to Hyundai than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
+<div className="op" style={{ background: "black" ,color:" white",paddingTop:"10px",marginTop:"10px"}}>
+  <h1 style={{color:"crimson"}}>EXPERIENCE</h1>
+  <h3 className="tes"style={{lineHeight:"30px",color:" white"}} >As a world-class marque, there is more to Hyundai than meets the eye.<br></br> Explore the experiences and events placing us at the summit of luxury.</h3>
   
 </div>
 <div className='fog' >
@@ -172,7 +172,7 @@ export function Hyundai() {
   
 </div>
     <div className="joy">
-    <h1>About Hyundai:</h1>
+    <h1 style={{color:"crimson"}}>About Hyundai:</h1>
       <h2 className="tes1">HYUNDAI’s mission is to accelerate the world’s transition to sustainable energy.</h2>
       <h3 className="tes">Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
         known as Hyundai, is a South Korean multinational automotive manufacturer
