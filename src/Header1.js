@@ -1,10 +1,11 @@
+import {SiTesla,SiRollsroyce,SiBmw,SiMercedes,SiJaguar,SiTata,SiHyundai} from "react-icons/si";
 export function Header1() {
   return (
     <div>
       <div className='headerBlock1'>
       <div className='headerBlock__info'>
         <div className='headerBlock__infoText'>
-          <h1>ROLLS ROYCE CULLINAN</h1>
+          <h1 >ROLLS ROYCE <SiRollsroyce style={{fontSize: "22px"}}/></h1>
           <h4>
             Order Online for <span>Touchless Delivery</span>
           </h4>

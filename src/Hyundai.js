@@ -19,6 +19,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {AiFillCar} from "react-icons/ai";
 
 export function Hyundai() {
   const cars= [
@@ -123,7 +124,7 @@ export function Hyundai() {
     
      
       <Header0/>
-      <h1 className="brand">HYUNDAI-SERIES <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">HYUNDAI-SERIES <AiFillCar/></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -174,9 +175,9 @@ export function Hyundai() {
     <div className="joy">
     <h1 style={{color:"crimson"}}>About Hyundai:</h1>
       <h2 className="tes1">HYUNDAI’s mission is to accelerate the world’s transition to sustainable energy.</h2>
-      <h3 className="tes">Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
+      <p className="tes">Hyundai Motor Company, often abbreviated to Hyundai Motors and commonly 
         known as Hyundai, is a South Korean multinational automotive manufacturer
-         headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.Hyundai believes the faster the world stops relying on fossil fuels and moves towards a zero-emission future, the better.</h3>
+         headquartered in Seoul, South Korea. Hyundai Motor Company was founded in 1967.Hyundai believes the faster the world stops relying on fossil fuels and moves towards a zero-emission future, the better.</p>
             </div>
             <div className="folks">
             <Button variant="contained"  onClick={()=>seteast(!east)}  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",maxWidth: '180px', maxHeight: '80px', minWidth: '180px', minHeight: '80px',fontSize:"19px",borderRadius:"12px"}} >PREVIEW-🎬</Button>

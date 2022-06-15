@@ -1,21 +1,5 @@
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
-import InfoIcon from '@mui/icons-material/Info';
-import { useHistory } from 'react-router-dom';
-import {GiLightningHelix} from "react-icons/gi";
-import Box from '@mui/material/Box';
- export default function Nav() {
-  const history =useHistory(); 
-  return (
-    <div>
-
-    <Box sx={{ flexGrow: 1 }}>
-    <AppBar  style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",position:"static"}}>
+<AppBar position="static" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",width:"100%"}}>
       <Toolbar>
-        
         <Button color="inherit" onClick={() => history.push("/")} style={{color:"crimson",fontSize:"30px"}}>
         CARZEY <GiLightningHelix  style={{position:"absolute",marginLeft:'150px'}}  /></Button>
           <div className='hug1'>
@@ -36,8 +20,3 @@ import Box from '@mui/material/Box';
         </div>
       </Toolbar>
     </AppBar>
-    </Box>
-    </div>
-
-  );
-}

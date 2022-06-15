@@ -12,8 +12,6 @@ import { RollRoyce } from './RollRoyce';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import TextField from '@mui/material/TextField';
-import AllInclusiveSharpIcon from '@mui/icons-material/AllInclusiveSharp';
 import { Menu } from './Menu';
 import { Login } from './Login';
 import { Booking } from './Booking';
@@ -25,6 +23,7 @@ import ShopIcon from '@mui/icons-material/Shop';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
 import PhoneIcon from '@mui/icons-material/Phone';
 import SwapHorizIcon from '@mui/icons-material/SwapHoriz';
+import { useHistory } from 'react-router-dom';
 export default function App() {
 
   return (
@@ -58,15 +57,15 @@ function Home(){
    <div >
   
      <div className='kgf' >
-        <img style={{ width:"1505px", height:"750px",objectFit:"cover",}} src= "https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD"></img>
+        <img  style={{width:"100%",height:"300px",objectFit:"cover",position:"static"}} src= "https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD"></img>
     
         </div>
        
 
  
-        <div className='hover1' style={{padding:"20px"}}>
+        <div className='hover1' style={{padding:"2px"}}>
   
-  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px"}}>
+  <div style={{ background: "black" ,color:" white",paddingTop:"50px",paddingLeft:"100px", height:"440px",}}>
      <h1 style={{color:"crimson"}}>ADVENT OF SMART CARS</h1>
   <h4 className="test" style={{lineHeight:"30px",color:" white"}} >The age of smart cars is approaching fast as automobiles are increasingly making full use of electronic technology developments. There are already cars out there which can drive themselves, automatically adjusting its speed and maneuvering into the hard.<br></br><br></br><h2>More About <IconButton style={{marginTop:"1px",color:" white"}}><ArrowForwardIcon/></IconButton><span style={{color:"crimson"}}>Smart</span>  </h2></h4></div>
   <div><img  style={{ width:"800px", height:"490px",objectFit:"cover"}} src='https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/i20-n-line/Gallery/Hyundai-i20Nline-Gallery-Mid-PC-1120x600-9.jpg'></img></div>
@@ -91,7 +90,7 @@ function Home(){
 <p className="header4">Experience the open skies and unlimited freedom with<br></br> an off-roading and adventure playground celebrating<br></br> the All-New Thar.</p>
 </div>
 
-<div>
+<div >
   <h1 style={{textAlign:"center"}}>Gear up</h1>
   <h3 style={{paddingLeft:"650px"}}> Accessories & Merchandise</h3>
   <Button variant="contained" style={{color:'black',backgroundColor:"rgb(185, 183, 183)",marginLeft:"530px"}}>Download Accessories and Merchandise Brochure</Button>
@@ -130,6 +129,3 @@ function Home(){
 
   );
 }
-
-
-

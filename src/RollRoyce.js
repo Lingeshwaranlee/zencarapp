@@ -18,6 +18,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {AiFillCar} from "react-icons/ai";
 
 export function RollRoyce() {
   const cars = [
@@ -104,7 +105,7 @@ export function RollRoyce() {
       <Header1/>
      
       
-      <h1 className="brand">ROLLSROYCE-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand" >ROLLSROYCE-SERIES <AiFillCar/></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       
@@ -166,7 +167,7 @@ export function RollRoyce() {
               
               </div>
               {east ? <iframe width="100%" height="701" src="https://www.youtube.com/embed/_JP0fl3S1uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> :""}
-          <img  style={{ width:"1505px", height:"750px",objectFit:"cover"}} src="https://cdn.wallpapersafari.com/2/83/Qe7wco.jpg"></img>
+          <img  style={{ width:"1505px", height:"750px",objectFit:"cover"}} src="https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/black-badge-ghost-2021/page-components/BB_RR21_Carousel_2-3_D.jpg/jcr:content/renditions/cq5dam.web.1242.webp"></img>
       </div>
  
   );

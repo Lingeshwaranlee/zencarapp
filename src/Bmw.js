@@ -19,6 +19,7 @@ import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {AiFillCar} from "react-icons/ai";
 
 export function Bmw() {
   const cars = [
@@ -103,7 +104,7 @@ export function Bmw() {
      
       < Header2/>
       
-      <h1 className="brand">BMW-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">BMW-SERIES  <AiFillCar/></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       

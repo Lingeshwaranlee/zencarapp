@@ -12,7 +12,7 @@ import Stack from '@mui/material/Stack';
 import Modal from '@mui/material/Modal';
 import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-
+import {AiFillCar} from "react-icons/ai";
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header } from "./Header";
 import { useHistory } from 'react-router-dom';
@@ -73,18 +73,11 @@ export function Tesla() {
 
   return (
     <div>
-    <div className='header'>
-  <div className='header__logo'>
-  
-  <img  className='header__logoImg' src='https://assets.website-files.com/5e8fceb1c9af5c3915ec97a0/5ec2f037975ed372da9f6286_Tesla-Logo-PNG-HD.png'
-            alt='profile' />
-           
-  </div>
-  </div>
+    
       
      <Header/>
       
-      <h1 className="brand">TESLA-SERIES  <FontAwesomeIcon icon={faCar}></FontAwesomeIcon></h1>
+      <h1 className="brand">TESLA-SERIES  <AiFillCar/></h1>
     <div className="tesla-list">
       {cars.map((user)=><CarData name={user.name} poster={user.poster} seat={user.seat} type={user.type} varients={user.varients} color={user.color} speed={user.speed} mileage={user.mileage} />)}
       

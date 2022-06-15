@@ -2,6 +2,10 @@ body{
   background-color: rgb(236, 231, 231);
   
 }
+
+.App{
+  width: 100%;
+}
 .op{
   text-align: center;
   
@@ -108,11 +112,15 @@ justify-content: space-between;
 
 .hover{
   display: flex;
+  position: relative;
 }
 
 .hover1{
   display: flex;
   margin-top: 20px;
+  position: relative;
+  padding:"10px"
+  
 }
 .hover2{
   display: flex;
@@ -199,7 +207,7 @@ padding-left: 30px;
   font-weight: 500;
   font-size: 18px;
   padding: 25px;
-  
+  line-height: 30px;
 
 }
 .test{
@@ -239,11 +247,11 @@ padding-left: 30px;
   
 }
 .ishu{
-  width:1500px;
+  width:100%;
   object-fit:cover;
 }
 .ishu1{
-  width:1500px;
+  width:100%;
   height:500px;
   object-fit:cover;
 }
@@ -458,7 +466,12 @@ padding-left: 30px;
   box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
 }
 .hug{
-  margin-left: 635px !important;
+  margin-left: 430px !important;
+  align-items: center;
+  gap: 15px;
+}
+.hug1{
+  margin-left: 50px !important;
   align-items: center;
   gap: 15px;
 }
