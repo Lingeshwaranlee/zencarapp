@@ -20,6 +20,8 @@ import { useHistory } from 'react-router-dom';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {AiFillCar} from "react-icons/ai";
+
+//tata page component
 export function Tata() {
   const cars = [
     {

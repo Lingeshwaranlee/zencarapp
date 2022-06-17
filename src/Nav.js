@@ -7,6 +7,8 @@ import InfoIcon from '@mui/icons-material/Info';
 import { useHistory } from 'react-router-dom';
 import {GiLightningHelix} from "react-icons/gi";
 import Box from '@mui/material/Box';
+
+//navbar component
  export default function Nav() {
   const history =useHistory(); 
   return (

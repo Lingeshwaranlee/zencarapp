@@ -15,12 +15,11 @@ import Badge from '@mui/material/Badge';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header3 } from './Header3';
-import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import { useHistory } from 'react-router-dom';
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {AiFillCar} from "react-icons/ai";
 
+//Benz page component
 export function Benz() {
   const cars = [
     {

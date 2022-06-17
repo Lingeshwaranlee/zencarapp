@@ -20,6 +20,7 @@ import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {AiFillCar} from "react-icons/ai";
 
+//rollsroyce page component
 export function RollRoyce() {
   const cars = [
     {

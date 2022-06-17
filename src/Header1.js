@@ -1,4 +1,5 @@
 import {SiTesla,SiRollsroyce,SiBmw,SiMercedes,SiJaguar,SiTata,SiHyundai} from "react-icons/si";
+//header1 component
 export function Header1() {
   return (
     <div>

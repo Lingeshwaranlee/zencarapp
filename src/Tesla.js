@@ -17,6 +17,7 @@ import CancelPresentationIcon from '@mui/icons-material/CancelPresentation';
 import { Header } from "./Header";
 import { useHistory } from 'react-router-dom';
 
+//tesla page component
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 export function Tesla() {
   const cars= [

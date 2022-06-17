@@ -1,3 +1,4 @@
+//appbar components
 <AppBar position="static" style={{ background: 'rgb(41, 39, 39)' ,color:"rgb(185, 183, 183)",width:"100%"}}>
       <Toolbar>
         <Button color="inherit" onClick={() => history.push("/")} style={{color:"crimson",fontSize:"30px"}}>

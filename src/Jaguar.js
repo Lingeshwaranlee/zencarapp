@@ -21,6 +21,7 @@ import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {AiFillCar} from "react-icons/ai";
 
+//jaguar page component
 export function Jaguar() {
   const cars= [
     {

@@ -7,6 +7,7 @@ import { Router } from 'react-router-dom/cjs/react-router-dom.min';
 import { Link } from 'react-router-dom';
 import {SiGooglepay,SiPaytm,SiRazorpay,SiPhonepe} from "react-icons/si";
 import {FaPaypal,FaRupeeSign} from "react-icons/fa";
+//Booking page component
 export function Booking() {
   const history =useHistory(); 
   return (

@@ -14,6 +14,8 @@ import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import AddRoadIcon from '@mui/icons-material/AddRoad';
 import InventoryIcon from '@mui/icons-material/Inventory';
 import CloseIcon from '@mui/icons-material/Close';
+
+//menu page component
 export function Menu() {
   
   const history =useHistory(); 

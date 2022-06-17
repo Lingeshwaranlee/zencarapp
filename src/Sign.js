@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
  import Button from '@mui/material/Button';
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
+
+////signin page component
 export function Sign( {Login,error}) {
   const [details,setDetails]=useState({firstname:'',lastname:'',phonenumber:'',email:"",password:""})
   const submitHandler= e =>{
